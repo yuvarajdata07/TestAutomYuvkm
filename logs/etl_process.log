@@ -1,0 +1,2228 @@
+2026-04-16 11:18:16,732-INFO-mysql  database connection is being established..
+2026-04-16 11:18:16,732-INFO-mysql  database connection is being established..
+2026-04-16 11:18:16,733-INFO-mysql  database connection is being established..
+2026-04-16 11:18:16,751-INFO-mysql database connection has established..
+2026-04-16 11:18:16,753-INFO-mysql database connection has established..
+2026-04-16 11:18:16,774-INFO-mysql database connection has established..
+2026-04-16 11:18:16,775-INFO-mysql database connection has established..
+2026-04-16 11:18:16,847-INFO-Test test_data_extraction_from_product_data_to_stage passed successfully.
+
+2026-04-16 11:18:16,848-INFO-mysql database connection has been closed..
+2026-04-16 11:18:16,860-ERROR-FAILURE: 1 rows found in FILE but missing in DB.
+2026-04-16 11:18:16,861-ERROR-Critical Error in test_data_extraction_from_sales_data_to_stage: Test Failed for test_data_extraction_from_sales_data_to_stage:
+FAILURE: 1 rows found in FILE but missing in DB.
+2026-04-16 11:18:16,861-ERROR-error while sales data extraction checks..
+2026-04-16 11:18:16,864-INFO-mysql database connection has been closed..
+2026-04-16 11:18:16,870-INFO-mysql  database connection is being established..
+2026-04-16 11:18:16,898-INFO-mysql database connection has established..
+2026-04-16 11:18:16,898-INFO-Oracle database connection is being established..
+2026-04-16 11:18:16,969-INFO-Test test_data_extraction_from_inventory_data_to_stage passed successfully.
+2026-04-16 11:18:16,971-INFO-mysql database connection has been closed..
+2026-04-16 11:18:20,113-INFO-Oracle database connection has established..
+2026-04-16 11:18:20,145-INFO-Expected data in the file is:    store_id    store_name
+0         1       Walmart
+1         2        Target
+2         3      Best Buy
+3         4        Costco
+4         5    Home Depot
+5         6        Lowe's
+6         7   Apple Store
+7         8          IKEA
+8         9     Walgreens
+9        10  CVS Pharmacy
+2026-04-16 11:18:20,155-INFO-Actual data in the file is:    store_id    store_name
+0         1       Walmart
+1         2        Target
+2         3      Best Buy
+3         4        Costco
+4         5    Home Depot
+5         6        Lowe's
+6         7   Apple Store
+7         8          IKEA
+8         9     Walgreens
+9        10  CVS Pharmacy
+2026-04-16 11:18:20,164-INFO-Test test_data_extraction_from_stores_data_to_stage passed successfully.
+2026-04-16 11:18:20,165-INFO-Oracle database connection has been closed..
+2026-04-16 11:18:20,166-INFO-mysql database connection has been closed..
+2026-04-16 11:25:13,378-INFO-mysql  database connection is being established..
+2026-04-16 11:25:13,379-INFO-mysql  database connection is being established..
+2026-04-16 11:25:13,379-INFO-mysql  database connection is being established..
+2026-04-16 11:25:13,396-INFO-mysql database connection has established..
+2026-04-16 11:25:13,396-INFO-mysql database connection has established..
+2026-04-16 11:25:13,396-INFO-mysql database connection has established..
+2026-04-16 11:25:13,397-INFO-mysql database connection has established..
+2026-04-16 11:25:13,421-INFO-Expected data in the file is:     product_id  year  month  total_sales
+0          110  2025      9        646.0
+1          101  2025      9        427.0
+2          102  2025      9        419.0
+3          103  2025      9        346.0
+4          104  2025      9        398.0
+5          105  2025      9        294.0
+6          106  2025      9        220.0
+7          107  2025      9        268.0
+8          108  2025      9        330.0
+9          109  2025      9        436.0
+10         101  2025     10        263.5
+11         102  2025     10        254.0
+12         103  2025     10        339.0
+13         104  2025     10        346.0
+14         105  2025     10        355.0
+15         106  2025     10        255.0
+16         107  2025     10        360.0
+17         108  2025     10        261.0
+18         109  2025     10        423.5
+19         110  2025     10        408.0
+2026-04-16 11:25:13,430-INFO-Expected data in the file is:     sales_id  product_id  store_id  quantity  price   sale_date region
+0         10         110         4         9   17.0  2025-09-10    Low
+1         12         102         5         9   27.0  2025-09-12    Low
+2         14         104         7         8   31.0  2025-09-14    Low
+3         16         106         5         5   23.0  2025-09-16    Low
+4         18         108         7         6   28.0  2025-09-18    Low
+5         20         110         9         9   19.5  2025-09-20    Low
+6         22         102         2         8   22.0  2025-09-22    Low
+7         24         104         4         6   25.0  2025-09-24    Low
+8         26         106         3         5   21.0  2025-09-26    Low
+9         28         108         5         6   27.0  2025-09-28    Low
+10        30         110         7         7   23.5  2025-09-30    Low
+11        32         102         5         6   29.0  2025-10-02    Low
+12        34         104         7         5   30.0  2025-10-04    Low
+13        36         106         5         3   25.0  2025-10-06    Low
+14        38         108         7         9   20.0  2025-10-08    Low
+15        40         110         9         6   26.0  2025-10-10    Low
+16        42         102         4         4   20.0  2025-10-12    Low
+17        44         104         6         7   28.0  2025-10-14    Low
+18        46         106         8         8   22.5  2025-10-16    Low
+19        48         108         1         3   27.0  2025-10-18    Low
+20        50         110         3        12   21.0  2025-10-20    Low
+21        60         110         4         9   17.0  2025-09-10    Low
+2026-04-16 11:25:13,434-INFO-Expected data in the file is:     sales_id  product_id  store_id  quantity  price   sale_date region
+0         11         101         4        15   14.0  2025-09-11   High
+1         13         103         6        10   22.0  2025-09-13   High
+2         15         105         4        12   11.0  2025-09-15   High
+3         17         107         6         3   26.0  2025-09-17   High
+4         19         109         8        11   20.0  2025-09-19   High
+5         21         101         1        14   15.5  2025-09-21   High
+6         23         103         3         7   18.0  2025-09-23   High
+7         25         105         2        12   13.5  2025-09-25   High
+8         27         107         1        10   19.0  2025-09-27   High
+9         29         109         6         9   24.0  2025-09-29   High
+10        31         101         4        13   14.5  2025-10-01   High
+11        33         103         6         8   21.0  2025-10-03   High
+12        35         105         4         7   15.0  2025-10-05   High
+13        37         107         6        12   18.0  2025-10-07   High
+14        39         109         8        10   22.0  2025-10-09   High
+15        41         101         3         5   15.0  2025-10-11   High
+16        43         103         5         9   19.0  2025-10-13   High
+17        45         105         7        10   25.0  2025-10-15   High
+18        47         107         9         6   24.0  2025-10-17   High
+19        49         109         2        11   18.5  2025-10-19   High
+2026-04-16 11:25:13,438-INFO-Expected data in the file is:     sales_id  product_id  store_id  quantity  price   sale_date region
+0         10         110         4         9   17.0  2025-09-10    Low
+1         11         101         4        15   14.0  2025-09-11   High
+2         12         102         5         9   27.0  2025-09-12    Low
+3         13         103         6        10   22.0  2025-09-13   High
+4         14         104         7         8   31.0  2025-09-14    Low
+5         15         105         4        12   11.0  2025-09-15   High
+6         16         106         5         5   23.0  2025-09-16    Low
+7         17         107         6         3   26.0  2025-09-17   High
+8         18         108         7         6   28.0  2025-09-18    Low
+9         19         109         8        11   20.0  2025-09-19   High
+10        20         110         9         9   19.5  2025-09-20    Low
+11        21         101         1        14   15.5  2025-09-21   High
+12        22         102         2         8   22.0  2025-09-22    Low
+13        23         103         3         7   18.0  2025-09-23   High
+14        24         104         4         6   25.0  2025-09-24    Low
+15        25         105         2        12   13.5  2025-09-25   High
+16        26         106         3         5   21.0  2025-09-26    Low
+17        27         107         1        10   19.0  2025-09-27   High
+18        28         108         5         6   27.0  2025-09-28    Low
+19        29         109         6         9   24.0  2025-09-29   High
+20        30         110         7         7   23.5  2025-09-30    Low
+21        31         101         4        13   14.5  2025-10-01   High
+22        32         102         5         6   29.0  2025-10-02    Low
+23        33         103         6         8   21.0  2025-10-03   High
+24        34         104         7         5   30.0  2025-10-04    Low
+25        35         105         4         7   15.0  2025-10-05   High
+26        36         106         5         3   25.0  2025-10-06    Low
+27        37         107         6        12   18.0  2025-10-07   High
+28        38         108         7         9   20.0  2025-10-08    Low
+29        39         109         8        10   22.0  2025-10-09   High
+30        40         110         9         6   26.0  2025-10-10    Low
+31        41         101         3         5   15.0  2025-10-11   High
+32        42         102         4         4   20.0  2025-10-12    Low
+33        43         103         5         9   19.0  2025-10-13   High
+34        44         104         6         7   28.0  2025-10-14    Low
+35        45         105         7        10   25.0  2025-10-15   High
+36        46         106         8         8   22.5  2025-10-16    Low
+37        47         107         9         6   24.0  2025-10-17   High
+38        48         108         1         3   27.0  2025-10-18    Low
+39        49         109         2        11   18.5  2025-10-19   High
+40        50         110         3        12   21.0  2025-10-20    Low
+41        60         110         4         9   17.0  2025-09-10    Low
+2026-04-16 11:25:13,447-INFO-Actual data in the file is:     sales_id  product_id  store_id  quantity  price   sale_date region
+0         10         110         4         9   17.0  2025-09-10    Low
+1         12         102         5         9   27.0  2025-09-12    Low
+2         14         104         7         8   31.0  2025-09-14    Low
+3         16         106         5         5   23.0  2025-09-16    Low
+4         18         108         7         6   28.0  2025-09-18    Low
+5         20         110         9         9   19.5  2025-09-20    Low
+6         22         102         2         8   22.0  2025-09-22    Low
+7         24         104         4         6   25.0  2025-09-24    Low
+8         26         106         3         5   21.0  2025-09-26    Low
+9         28         108         5         6   27.0  2025-09-28    Low
+10        30         110         7         7   23.5  2025-09-30    Low
+11        32         102         5         6   29.0  2025-10-02    Low
+12        34         104         7         5   30.0  2025-10-04    Low
+13        36         106         5         3   25.0  2025-10-06    Low
+14        38         108         7         9   20.0  2025-10-08    Low
+15        40         110         9         6   26.0  2025-10-10    Low
+16        42         102         4         4   20.0  2025-10-12    Low
+17        44         104         6         7   28.0  2025-10-14    Low
+18        46         106         8         8   22.5  2025-10-16    Low
+19        48         108         1         3   27.0  2025-10-18    Low
+20        50         110         3        12   21.0  2025-10-20    Low
+21        60         110         4         9   17.0  2025-09-10    Low
+2026-04-16 11:25:13,452-INFO-Actual data in the file is:     sales_id  product_id  store_id  quantity  price   sale_date region
+0         11         101         4        15   14.0  2025-09-11   High
+1         13         103         6        10   22.0  2025-09-13   High
+2         15         105         4        12   11.0  2025-09-15   High
+3         17         107         6         3   26.0  2025-09-17   High
+4         19         109         8        11   20.0  2025-09-19   High
+5         21         101         1        14   15.5  2025-09-21   High
+6         23         103         3         7   18.0  2025-09-23   High
+7         25         105         2        12   13.5  2025-09-25   High
+8         27         107         1        10   19.0  2025-09-27   High
+9         29         109         6         9   24.0  2025-09-29   High
+10        31         101         4        13   14.5  2025-10-01   High
+11        33         103         6         8   21.0  2025-10-03   High
+12        35         105         4         7   15.0  2025-10-05   High
+13        37         107         6        12   18.0  2025-10-07   High
+14        39         109         8        10   22.0  2025-10-09   High
+15        41         101         3         5   15.0  2025-10-11   High
+16        43         103         5         9   19.0  2025-10-13   High
+17        45         105         7        10   25.0  2025-10-15   High
+18        47         107         9         6   24.0  2025-10-17   High
+19        49         109         2        11   18.5  2025-10-19   High
+2026-04-16 11:25:13,460-INFO-Actual data in the file is:     sales_id  product_id  store_id  quantity  price   sale_date region
+0         10         110         4         9   17.0  2025-09-10    Low
+1         11         101         4        15   14.0  2025-09-11   High
+2         12         102         5         9   27.0  2025-09-12    Low
+3         13         103         6        10   22.0  2025-09-13   High
+4         14         104         7         8   31.0  2025-09-14    Low
+5         15         105         4        12   11.0  2025-09-15   High
+6         16         106         5         5   23.0  2025-09-16    Low
+7         17         107         6         3   26.0  2025-09-17   High
+8         18         108         7         6   28.0  2025-09-18    Low
+9         19         109         8        11   20.0  2025-09-19   High
+10        20         110         9         9   19.5  2025-09-20    Low
+11        21         101         1        14   15.5  2025-09-21   High
+12        22         102         2         8   22.0  2025-09-22    Low
+13        23         103         3         7   18.0  2025-09-23   High
+14        24         104         4         6   25.0  2025-09-24    Low
+15        25         105         2        12   13.5  2025-09-25   High
+16        26         106         3         5   21.0  2025-09-26    Low
+17        27         107         1        10   19.0  2025-09-27   High
+18        28         108         5         6   27.0  2025-09-28    Low
+19        29         109         6         9   24.0  2025-09-29   High
+20        30         110         7         7   23.5  2025-09-30    Low
+21        31         101         4        13   14.5  2025-10-01   High
+22        32         102         5         6   29.0  2025-10-02    Low
+23        33         103         6         8   21.0  2025-10-03   High
+24        34         104         7         5   30.0  2025-10-04    Low
+25        35         105         4         7   15.0  2025-10-05   High
+26        36         106         5         3   25.0  2025-10-06    Low
+27        37         107         6        12   18.0  2025-10-07   High
+28        38         108         7         9   20.0  2025-10-08    Low
+29        39         109         8        10   22.0  2025-10-09   High
+30        40         110         9         6   26.0  2025-10-10    Low
+31        41         101         3         5   15.0  2025-10-11   High
+32        42         102         4         4   20.0  2025-10-12    Low
+33        43         103         5         9   19.0  2025-10-13   High
+34        44         104         6         7   28.0  2025-10-14    Low
+35        45         105         7        10   25.0  2025-10-15   High
+36        46         106         8         8   22.5  2025-10-16    Low
+37        47         107         9         6   24.0  2025-10-17   High
+38        48         108         1         3   27.0  2025-10-18    Low
+39        49         109         2        11   18.5  2025-10-19   High
+40        50         110         3        12   21.0  2025-10-20    Low
+41        60         110         4         9   17.0  2025-09-10    Low
+2026-04-16 11:25:13,460-INFO-Test test_data_transformation_Router_Low_sales passed successfully.
+2026-04-16 11:25:13,462-INFO-mysql database connection has been closed..
+2026-04-16 11:25:13,475-INFO-Test test_data_transformation_Router_High_sales passed successfully.
+2026-04-16 11:25:13,477-INFO-mysql database connection has been closed..
+2026-04-16 11:25:13,477-INFO-Actual data in the file is:     product_id  year  month  total_sales
+0          110  2025      9        646.0
+1          101  2025      9        427.0
+2          102  2025      9        419.0
+3          103  2025      9        346.0
+4          104  2025      9        398.0
+5          105  2025      9        294.0
+6          106  2025      9        220.0
+7          107  2025      9        268.0
+8          108  2025      9        330.0
+9          109  2025      9        436.0
+10         101  2025     10        263.5
+11         102  2025     10        254.0
+12         103  2025     10        339.0
+13         104  2025     10        346.0
+14         105  2025     10        355.0
+15         106  2025     10        255.0
+16         107  2025     10        360.0
+17         108  2025     10        261.0
+18         109  2025     10        423.5
+19         110  2025     10        408.0
+2026-04-16 11:25:13,478-INFO-Test test_data_transformation_filter_sales passed successfully.
+2026-04-16 11:25:13,480-INFO-mysql database connection has been closed..
+2026-04-16 11:25:13,481-INFO-mysql  database connection is being established..
+2026-04-16 11:25:13,485-INFO-mysql  database connection is being established..
+2026-04-16 11:25:13,488-INFO-mysql database connection has established..
+2026-04-16 11:25:13,493-INFO-mysql database connection has established..
+2026-04-16 11:25:13,497-INFO-Test test_data_transformation_Aggregator_sales passed successfully.
+2026-04-16 11:25:13,498-INFO-mysql database connection has been closed..
+2026-04-16 11:25:13,500-INFO-Expected data in the file is:    store_id  total_inventory
+0         1            115.0
+1         2            195.0
+2         3            265.0
+3         4            220.0
+4         5            190.0
+5         6            260.0
+6         7            230.0
+7         8            270.0
+8         9            320.0
+9        10            170.0
+2026-04-16 11:25:13,516-INFO-Actual data in the file is:    store_id  total_inventory
+0         1            115.0
+1         2            195.0
+2         3            265.0
+3         4            220.0
+4         5            190.0
+5         6            260.0
+6         7            230.0
+7         8            270.0
+8         9            320.0
+9        10            170.0
+2026-04-16 11:25:13,528-INFO-Test test_data_transformation_Aggretor_inventory_ passed successfully.
+2026-04-16 11:25:13,530-INFO-mysql database connection has been closed..
+2026-04-16 11:25:13,542-INFO-Expected data in the file is:     sales_id  quantity  price  ...        product_name store_id   store_name
+0         48         3   27.0  ...    Philips Hue Bulb        1      Walmart
+1         27        10   19.0  ...      Samsung 55" TV        1      Walmart
+2         21        14   15.5  ...           iPhone 15        1      Walmart
+3         49        11   18.5  ...     Fitbit Charge 5        2       Target
+4         25        12   13.5  ...     Sony WH-1000XM5        2       Target
+5         22         8   22.0  ...  Samsung Galaxy S23        2       Target
+6         50        12   21.0  ...   Kindle Paperwhite        3     Best Buy
+7         41         5   15.0  ...           iPhone 15        3     Best Buy
+8         26         5   21.0  ...       Nike Air Zoom        3     Best Buy
+9         23         7   18.0  ...         Dell XPS 13        3     Best Buy
+10        60         9   17.0  ...   Kindle Paperwhite        4       Costco
+11        42         4   20.0  ...  Samsung Galaxy S23        4       Costco
+12        35         7   15.0  ...     Sony WH-1000XM5        4       Costco
+13        31        13   14.5  ...           iPhone 15        4       Costco
+14        24         6   25.0  ...      MacBook Pro 14        4       Costco
+15        15        12   11.0  ...     Sony WH-1000XM5        4       Costco
+16        11        15   14.0  ...           iPhone 15        4       Costco
+17        10         9   17.0  ...   Kindle Paperwhite        4       Costco
+18        43         9   19.0  ...         Dell XPS 13        5   Home Depot
+19        36         3   25.0  ...       Nike Air Zoom        5   Home Depot
+20        32         6   29.0  ...  Samsung Galaxy S23        5   Home Depot
+21        28         6   27.0  ...    Philips Hue Bulb        5   Home Depot
+22        16         5   23.0  ...       Nike Air Zoom        5   Home Depot
+23        12         9   27.0  ...  Samsung Galaxy S23        5   Home Depot
+24        44         7   28.0  ...      MacBook Pro 14        6       Lowe's
+25        37        12   18.0  ...      Samsung 55" TV        6       Lowe's
+26        33         8   21.0  ...         Dell XPS 13        6       Lowe's
+27        29         9   24.0  ...     Fitbit Charge 5        6       Lowe's
+28        17         3   26.0  ...      Samsung 55" TV        6       Lowe's
+29        13        10   22.0  ...         Dell XPS 13        6       Lowe's
+30        45        10   25.0  ...     Sony WH-1000XM5        7  Apple Store
+31        38         9   20.0  ...    Philips Hue Bulb        7  Apple Store
+32        34         5   30.0  ...      MacBook Pro 14        7  Apple Store
+33        30         7   23.5  ...   Kindle Paperwhite        7  Apple Store
+34        18         6   28.0  ...    Philips Hue Bulb        7  Apple Store
+35        14         8   31.0  ...      MacBook Pro 14        7  Apple Store
+36        46         8   22.5  ...       Nike Air Zoom        8         IKEA
+37        39        10   22.0  ...     Fitbit Charge 5        8         IKEA
+38        19        11   20.0  ...     Fitbit Charge 5        8         IKEA
+39        47         6   24.0  ...      Samsung 55" TV        9    Walgreens
+40        40         6   26.0  ...   Kindle Paperwhite        9    Walgreens
+41        20         9   19.5  ...   Kindle Paperwhite        9    Walgreens
+
+[42 rows x 9 columns]
+2026-04-16 11:25:13,674-INFO-Actual data in the file is:     sales_id  quantity  price  ...        product_name store_id   store_name
+0         48         3   27.0  ...    Philips Hue Bulb        1      Walmart
+1         27        10   19.0  ...      Samsung 55" TV        1      Walmart
+2         21        14   15.5  ...           iPhone 15        1      Walmart
+3         49        11   18.5  ...     Fitbit Charge 5        2       Target
+4         25        12   13.5  ...     Sony WH-1000XM5        2       Target
+5         22         8   22.0  ...  Samsung Galaxy S23        2       Target
+6         50        12   21.0  ...   Kindle Paperwhite        3     Best Buy
+7         41         5   15.0  ...           iPhone 15        3     Best Buy
+8         26         5   21.0  ...       Nike Air Zoom        3     Best Buy
+9         23         7   18.0  ...         Dell XPS 13        3     Best Buy
+10        60         9   17.0  ...   Kindle Paperwhite        4       Costco
+11        42         4   20.0  ...  Samsung Galaxy S23        4       Costco
+12        35         7   15.0  ...     Sony WH-1000XM5        4       Costco
+13        31        13   14.5  ...           iPhone 15        4       Costco
+14        24         6   25.0  ...      MacBook Pro 14        4       Costco
+15        15        12   11.0  ...     Sony WH-1000XM5        4       Costco
+16        11        15   14.0  ...           iPhone 15        4       Costco
+17        10         9   17.0  ...   Kindle Paperwhite        4       Costco
+18        43         9   19.0  ...         Dell XPS 13        5   Home Depot
+19        36         3   25.0  ...       Nike Air Zoom        5   Home Depot
+20        32         6   29.0  ...  Samsung Galaxy S23        5   Home Depot
+21        28         6   27.0  ...    Philips Hue Bulb        5   Home Depot
+22        16         5   23.0  ...       Nike Air Zoom        5   Home Depot
+23        12         9   27.0  ...  Samsung Galaxy S23        5   Home Depot
+24        44         7   28.0  ...      MacBook Pro 14        6       Lowe's
+25        37        12   18.0  ...      Samsung 55" TV        6       Lowe's
+26        33         8   21.0  ...         Dell XPS 13        6       Lowe's
+27        29         9   24.0  ...     Fitbit Charge 5        6       Lowe's
+28        17         3   26.0  ...      Samsung 55" TV        6       Lowe's
+29        13        10   22.0  ...         Dell XPS 13        6       Lowe's
+30        45        10   25.0  ...     Sony WH-1000XM5        7  Apple Store
+31        38         9   20.0  ...    Philips Hue Bulb        7  Apple Store
+32        34         5   30.0  ...      MacBook Pro 14        7  Apple Store
+33        30         7   23.5  ...   Kindle Paperwhite        7  Apple Store
+34        18         6   28.0  ...    Philips Hue Bulb        7  Apple Store
+35        14         8   31.0  ...      MacBook Pro 14        7  Apple Store
+36        46         8   22.5  ...       Nike Air Zoom        8         IKEA
+37        39        10   22.0  ...     Fitbit Charge 5        8         IKEA
+38        19        11   20.0  ...     Fitbit Charge 5        8         IKEA
+39        47         6   24.0  ...      Samsung 55" TV        9    Walgreens
+40        40         6   26.0  ...   Kindle Paperwhite        9    Walgreens
+41        20         9   19.5  ...   Kindle Paperwhite        9    Walgreens
+
+[42 rows x 9 columns]
+2026-04-16 11:25:13,689-INFO-Test test_data_transformation_Joiner passed successfully.
+2026-04-16 11:25:13,690-INFO-mysql database connection has been closed..
+2026-04-16 11:25:51,814-INFO-mysql  database connection is being established..
+2026-04-16 11:25:51,815-INFO-mysql  database connection is being established..
+2026-04-16 11:25:51,815-INFO-mysql  database connection is being established..
+2026-04-16 11:25:51,832-INFO-mysql database connection has established..
+2026-04-16 11:25:51,832-INFO-mysql database connection has established..
+2026-04-16 11:25:51,832-INFO-mysql database connection has established..
+2026-04-16 11:25:51,856-INFO-Expected data in the file is:     product_id  year  month  total_sales
+0          110  2025      9        646.0
+1          101  2025      9        427.0
+2          102  2025      9        419.0
+3          103  2025      9        346.0
+4          104  2025      9        398.0
+5          105  2025      9        294.0
+6          106  2025      9        220.0
+7          107  2025      9        268.0
+8          108  2025      9        330.0
+9          109  2025      9        436.0
+10         101  2025     10        263.5
+11         102  2025     10        254.0
+12         103  2025     10        339.0
+13         104  2025     10        346.0
+14         105  2025     10        355.0
+15         106  2025     10        255.0
+16         107  2025     10        360.0
+17         108  2025     10        261.0
+18         109  2025     10        423.5
+19         110  2025     10        408.0
+2026-04-16 11:25:51,861-INFO-Expected data in the file is:     sales_id  product_id  store_id  quantity  price   sale_date region
+0         10         110         4         9   17.0  2025-09-10    Low
+1         12         102         5         9   27.0  2025-09-12    Low
+2         14         104         7         8   31.0  2025-09-14    Low
+3         16         106         5         5   23.0  2025-09-16    Low
+4         18         108         7         6   28.0  2025-09-18    Low
+5         20         110         9         9   19.5  2025-09-20    Low
+6         22         102         2         8   22.0  2025-09-22    Low
+7         24         104         4         6   25.0  2025-09-24    Low
+8         26         106         3         5   21.0  2025-09-26    Low
+9         28         108         5         6   27.0  2025-09-28    Low
+10        30         110         7         7   23.5  2025-09-30    Low
+11        32         102         5         6   29.0  2025-10-02    Low
+12        34         104         7         5   30.0  2025-10-04    Low
+13        36         106         5         3   25.0  2025-10-06    Low
+14        38         108         7         9   20.0  2025-10-08    Low
+15        40         110         9         6   26.0  2025-10-10    Low
+16        42         102         4         4   20.0  2025-10-12    Low
+17        44         104         6         7   28.0  2025-10-14    Low
+18        46         106         8         8   22.5  2025-10-16    Low
+19        48         108         1         3   27.0  2025-10-18    Low
+20        50         110         3        12   21.0  2025-10-20    Low
+21        60         110         4         9   17.0  2025-09-10    Low
+2026-04-16 11:25:51,864-INFO-Expected data in the file is:     sales_id  product_id  store_id  quantity  price   sale_date region
+0         10         110         4         9   17.0  2025-09-10    Low
+1         11         101         4        15   14.0  2025-09-11   High
+2         12         102         5         9   27.0  2025-09-12    Low
+3         13         103         6        10   22.0  2025-09-13   High
+4         14         104         7         8   31.0  2025-09-14    Low
+5         15         105         4        12   11.0  2025-09-15   High
+6         16         106         5         5   23.0  2025-09-16    Low
+7         17         107         6         3   26.0  2025-09-17   High
+8         18         108         7         6   28.0  2025-09-18    Low
+9         19         109         8        11   20.0  2025-09-19   High
+10        20         110         9         9   19.5  2025-09-20    Low
+11        21         101         1        14   15.5  2025-09-21   High
+12        22         102         2         8   22.0  2025-09-22    Low
+13        23         103         3         7   18.0  2025-09-23   High
+14        24         104         4         6   25.0  2025-09-24    Low
+15        25         105         2        12   13.5  2025-09-25   High
+16        26         106         3         5   21.0  2025-09-26    Low
+17        27         107         1        10   19.0  2025-09-27   High
+18        28         108         5         6   27.0  2025-09-28    Low
+19        29         109         6         9   24.0  2025-09-29   High
+20        30         110         7         7   23.5  2025-09-30    Low
+21        31         101         4        13   14.5  2025-10-01   High
+22        32         102         5         6   29.0  2025-10-02    Low
+23        33         103         6         8   21.0  2025-10-03   High
+24        34         104         7         5   30.0  2025-10-04    Low
+25        35         105         4         7   15.0  2025-10-05   High
+26        36         106         5         3   25.0  2025-10-06    Low
+27        37         107         6        12   18.0  2025-10-07   High
+28        38         108         7         9   20.0  2025-10-08    Low
+29        39         109         8        10   22.0  2025-10-09   High
+30        40         110         9         6   26.0  2025-10-10    Low
+31        41         101         3         5   15.0  2025-10-11   High
+32        42         102         4         4   20.0  2025-10-12    Low
+33        43         103         5         9   19.0  2025-10-13   High
+34        44         104         6         7   28.0  2025-10-14    Low
+35        45         105         7        10   25.0  2025-10-15   High
+36        46         106         8         8   22.5  2025-10-16    Low
+37        47         107         9         6   24.0  2025-10-17   High
+38        48         108         1         3   27.0  2025-10-18    Low
+39        49         109         2        11   18.5  2025-10-19   High
+40        50         110         3        12   21.0  2025-10-20    Low
+41        60         110         4         9   17.0  2025-09-10    Low
+2026-04-16 11:25:51,870-INFO-Expected data in the file is:     sales_id  product_id  store_id  quantity  price   sale_date region
+0         11         101         4        15   14.0  2025-09-11   High
+1         13         103         6        10   22.0  2025-09-13   High
+2         15         105         4        12   11.0  2025-09-15   High
+3         17         107         6         3   26.0  2025-09-17   High
+4         19         109         8        11   20.0  2025-09-19   High
+5         21         101         1        14   15.5  2025-09-21   High
+6         23         103         3         7   18.0  2025-09-23   High
+7         25         105         2        12   13.5  2025-09-25   High
+8         27         107         1        10   19.0  2025-09-27   High
+9         29         109         6         9   24.0  2025-09-29   High
+10        31         101         4        13   14.5  2025-10-01   High
+11        33         103         6         8   21.0  2025-10-03   High
+12        35         105         4         7   15.0  2025-10-05   High
+13        37         107         6        12   18.0  2025-10-07   High
+14        39         109         8        10   22.0  2025-10-09   High
+15        41         101         3         5   15.0  2025-10-11   High
+16        43         103         5         9   19.0  2025-10-13   High
+17        45         105         7        10   25.0  2025-10-15   High
+18        47         107         9         6   24.0  2025-10-17   High
+19        49         109         2        11   18.5  2025-10-19   High
+2026-04-16 11:25:51,876-INFO-Actual data in the file is:     sales_id  product_id  store_id  quantity  price   sale_date region
+0         10         110         4         9   17.0  2025-09-10    Low
+1         12         102         5         9   27.0  2025-09-12    Low
+2         14         104         7         8   31.0  2025-09-14    Low
+3         16         106         5         5   23.0  2025-09-16    Low
+4         18         108         7         6   28.0  2025-09-18    Low
+5         20         110         9         9   19.5  2025-09-20    Low
+6         22         102         2         8   22.0  2025-09-22    Low
+7         24         104         4         6   25.0  2025-09-24    Low
+8         26         106         3         5   21.0  2025-09-26    Low
+9         28         108         5         6   27.0  2025-09-28    Low
+10        30         110         7         7   23.5  2025-09-30    Low
+11        32         102         5         6   29.0  2025-10-02    Low
+12        34         104         7         5   30.0  2025-10-04    Low
+13        36         106         5         3   25.0  2025-10-06    Low
+14        38         108         7         9   20.0  2025-10-08    Low
+15        40         110         9         6   26.0  2025-10-10    Low
+16        42         102         4         4   20.0  2025-10-12    Low
+17        44         104         6         7   28.0  2025-10-14    Low
+18        46         106         8         8   22.5  2025-10-16    Low
+19        48         108         1         3   27.0  2025-10-18    Low
+20        50         110         3        12   21.0  2025-10-20    Low
+21        60         110         4         9   17.0  2025-09-10    Low
+2026-04-16 11:25:51,885-INFO-Actual data in the file is:     sales_id  product_id  store_id  quantity  price   sale_date region
+0         11         101         4        15   14.0  2025-09-11   High
+1         13         103         6        10   22.0  2025-09-13   High
+2         15         105         4        12   11.0  2025-09-15   High
+3         17         107         6         3   26.0  2025-09-17   High
+4         19         109         8        11   20.0  2025-09-19   High
+5         21         101         1        14   15.5  2025-09-21   High
+6         23         103         3         7   18.0  2025-09-23   High
+7         25         105         2        12   13.5  2025-09-25   High
+8         27         107         1        10   19.0  2025-09-27   High
+9         29         109         6         9   24.0  2025-09-29   High
+10        31         101         4        13   14.5  2025-10-01   High
+11        33         103         6         8   21.0  2025-10-03   High
+12        35         105         4         7   15.0  2025-10-05   High
+13        37         107         6        12   18.0  2025-10-07   High
+14        39         109         8        10   22.0  2025-10-09   High
+15        41         101         3         5   15.0  2025-10-11   High
+16        43         103         5         9   19.0  2025-10-13   High
+17        45         105         7        10   25.0  2025-10-15   High
+18        47         107         9         6   24.0  2025-10-17   High
+19        49         109         2        11   18.5  2025-10-19   High
+2026-04-16 11:25:51,889-INFO-Test test_data_transformation_Router_Low_sales passed successfully.
+2026-04-16 11:25:51,890-INFO-mysql database connection has been closed..
+2026-04-16 11:25:51,891-INFO-Actual data in the file is:     sales_id  product_id  store_id  quantity  price   sale_date region
+0         10         110         4         9   17.0  2025-09-10    Low
+1         11         101         4        15   14.0  2025-09-11   High
+2         12         102         5         9   27.0  2025-09-12    Low
+3         13         103         6        10   22.0  2025-09-13   High
+4         14         104         7         8   31.0  2025-09-14    Low
+5         15         105         4        12   11.0  2025-09-15   High
+6         16         106         5         5   23.0  2025-09-16    Low
+7         17         107         6         3   26.0  2025-09-17   High
+8         18         108         7         6   28.0  2025-09-18    Low
+9         19         109         8        11   20.0  2025-09-19   High
+10        20         110         9         9   19.5  2025-09-20    Low
+11        21         101         1        14   15.5  2025-09-21   High
+12        22         102         2         8   22.0  2025-09-22    Low
+13        23         103         3         7   18.0  2025-09-23   High
+14        24         104         4         6   25.0  2025-09-24    Low
+15        25         105         2        12   13.5  2025-09-25   High
+16        26         106         3         5   21.0  2025-09-26    Low
+17        27         107         1        10   19.0  2025-09-27   High
+18        28         108         5         6   27.0  2025-09-28    Low
+19        29         109         6         9   24.0  2025-09-29   High
+20        30         110         7         7   23.5  2025-09-30    Low
+21        31         101         4        13   14.5  2025-10-01   High
+22        32         102         5         6   29.0  2025-10-02    Low
+23        33         103         6         8   21.0  2025-10-03   High
+24        34         104         7         5   30.0  2025-10-04    Low
+25        35         105         4         7   15.0  2025-10-05   High
+26        36         106         5         3   25.0  2025-10-06    Low
+27        37         107         6        12   18.0  2025-10-07   High
+28        38         108         7         9   20.0  2025-10-08    Low
+29        39         109         8        10   22.0  2025-10-09   High
+30        40         110         9         6   26.0  2025-10-10    Low
+31        41         101         3         5   15.0  2025-10-11   High
+32        42         102         4         4   20.0  2025-10-12    Low
+33        43         103         5         9   19.0  2025-10-13   High
+34        44         104         6         7   28.0  2025-10-14    Low
+35        45         105         7        10   25.0  2025-10-15   High
+36        46         106         8         8   22.5  2025-10-16    Low
+37        47         107         9         6   24.0  2025-10-17   High
+38        48         108         1         3   27.0  2025-10-18    Low
+39        49         109         2        11   18.5  2025-10-19   High
+40        50         110         3        12   21.0  2025-10-20    Low
+41        60         110         4         9   17.0  2025-09-10    Low
+2026-04-16 11:25:51,901-INFO-Test test_data_transformation_Router_High_sales passed successfully.
+2026-04-16 11:25:51,902-INFO-Actual data in the file is:     product_id  year  month  total_sales
+0          110  2025      9        646.0
+1          101  2025      9        427.0
+2          102  2025      9        419.0
+3          103  2025      9        346.0
+4          104  2025      9        398.0
+5          105  2025      9        294.0
+6          106  2025      9        220.0
+7          107  2025      9        268.0
+8          108  2025      9        330.0
+9          109  2025      9        436.0
+10         101  2025     10        263.5
+11         102  2025     10        254.0
+12         103  2025     10        339.0
+13         104  2025     10        346.0
+14         105  2025     10        355.0
+15         106  2025     10        255.0
+16         107  2025     10        360.0
+17         108  2025     10        261.0
+18         109  2025     10        423.5
+19         110  2025     10        408.0
+2026-04-16 11:25:51,902-INFO-mysql database connection has been closed..
+2026-04-16 11:25:51,908-INFO-mysql  database connection is being established..
+2026-04-16 11:25:51,911-INFO-Test test_data_transformation_filter_sales passed successfully.
+2026-04-16 11:25:51,913-INFO-mysql database connection has been closed..
+2026-04-16 11:25:51,918-INFO-Test test_data_transformation_Aggregator_sales passed successfully.
+2026-04-16 11:25:51,919-INFO-mysql  database connection is being established..
+2026-04-16 11:25:51,921-INFO-mysql database connection has been closed..
+2026-04-16 11:25:51,936-INFO-mysql database connection has established..
+2026-04-16 11:25:51,946-INFO-Expected data in the file is:    store_id  total_inventory
+0         1            115.0
+1         2            195.0
+2         3            265.0
+3         4            220.0
+4         5            190.0
+5         6            260.0
+6         7            230.0
+7         8            270.0
+8         9            320.0
+9        10            170.0
+2026-04-16 11:25:51,951-INFO-mysql database connection has established..
+2026-04-16 11:25:51,956-INFO-Actual data in the file is:    store_id  total_inventory
+0         1            115.0
+1         2            195.0
+2         3            265.0
+3         4            220.0
+4         5            190.0
+5         6            260.0
+6         7            230.0
+7         8            270.0
+8         9            320.0
+9        10            170.0
+2026-04-16 11:25:51,968-INFO-Test test_data_transformation_Aggretor_inventory_ passed successfully.
+2026-04-16 11:25:51,970-INFO-mysql database connection has been closed..
+2026-04-16 11:25:51,980-INFO-Expected data in the file is:     sales_id  quantity  price  ...        product_name store_id   store_name
+0         48         3   27.0  ...    Philips Hue Bulb        1      Walmart
+1         27        10   19.0  ...      Samsung 55" TV        1      Walmart
+2         21        14   15.5  ...           iPhone 15        1      Walmart
+3         49        11   18.5  ...     Fitbit Charge 5        2       Target
+4         25        12   13.5  ...     Sony WH-1000XM5        2       Target
+5         22         8   22.0  ...  Samsung Galaxy S23        2       Target
+6         50        12   21.0  ...   Kindle Paperwhite        3     Best Buy
+7         41         5   15.0  ...           iPhone 15        3     Best Buy
+8         26         5   21.0  ...       Nike Air Zoom        3     Best Buy
+9         23         7   18.0  ...         Dell XPS 13        3     Best Buy
+10        60         9   17.0  ...   Kindle Paperwhite        4       Costco
+11        42         4   20.0  ...  Samsung Galaxy S23        4       Costco
+12        35         7   15.0  ...     Sony WH-1000XM5        4       Costco
+13        31        13   14.5  ...           iPhone 15        4       Costco
+14        24         6   25.0  ...      MacBook Pro 14        4       Costco
+15        15        12   11.0  ...     Sony WH-1000XM5        4       Costco
+16        11        15   14.0  ...           iPhone 15        4       Costco
+17        10         9   17.0  ...   Kindle Paperwhite        4       Costco
+18        43         9   19.0  ...         Dell XPS 13        5   Home Depot
+19        36         3   25.0  ...       Nike Air Zoom        5   Home Depot
+20        32         6   29.0  ...  Samsung Galaxy S23        5   Home Depot
+21        28         6   27.0  ...    Philips Hue Bulb        5   Home Depot
+22        16         5   23.0  ...       Nike Air Zoom        5   Home Depot
+23        12         9   27.0  ...  Samsung Galaxy S23        5   Home Depot
+24        44         7   28.0  ...      MacBook Pro 14        6       Lowe's
+25        37        12   18.0  ...      Samsung 55" TV        6       Lowe's
+26        33         8   21.0  ...         Dell XPS 13        6       Lowe's
+27        29         9   24.0  ...     Fitbit Charge 5        6       Lowe's
+28        17         3   26.0  ...      Samsung 55" TV        6       Lowe's
+29        13        10   22.0  ...         Dell XPS 13        6       Lowe's
+30        45        10   25.0  ...     Sony WH-1000XM5        7  Apple Store
+31        38         9   20.0  ...    Philips Hue Bulb        7  Apple Store
+32        34         5   30.0  ...      MacBook Pro 14        7  Apple Store
+33        30         7   23.5  ...   Kindle Paperwhite        7  Apple Store
+34        18         6   28.0  ...    Philips Hue Bulb        7  Apple Store
+35        14         8   31.0  ...      MacBook Pro 14        7  Apple Store
+36        46         8   22.5  ...       Nike Air Zoom        8         IKEA
+37        39        10   22.0  ...     Fitbit Charge 5        8         IKEA
+38        19        11   20.0  ...     Fitbit Charge 5        8         IKEA
+39        47         6   24.0  ...      Samsung 55" TV        9    Walgreens
+40        40         6   26.0  ...   Kindle Paperwhite        9    Walgreens
+41        20         9   19.5  ...   Kindle Paperwhite        9    Walgreens
+
+[42 rows x 9 columns]
+2026-04-16 11:25:52,068-INFO-Actual data in the file is:     sales_id  quantity  price  ...        product_name store_id   store_name
+0         48         3   27.0  ...    Philips Hue Bulb        1      Walmart
+1         27        10   19.0  ...      Samsung 55" TV        1      Walmart
+2         21        14   15.5  ...           iPhone 15        1      Walmart
+3         49        11   18.5  ...     Fitbit Charge 5        2       Target
+4         25        12   13.5  ...     Sony WH-1000XM5        2       Target
+5         22         8   22.0  ...  Samsung Galaxy S23        2       Target
+6         50        12   21.0  ...   Kindle Paperwhite        3     Best Buy
+7         41         5   15.0  ...           iPhone 15        3     Best Buy
+8         26         5   21.0  ...       Nike Air Zoom        3     Best Buy
+9         23         7   18.0  ...         Dell XPS 13        3     Best Buy
+10        60         9   17.0  ...   Kindle Paperwhite        4       Costco
+11        42         4   20.0  ...  Samsung Galaxy S23        4       Costco
+12        35         7   15.0  ...     Sony WH-1000XM5        4       Costco
+13        31        13   14.5  ...           iPhone 15        4       Costco
+14        24         6   25.0  ...      MacBook Pro 14        4       Costco
+15        15        12   11.0  ...     Sony WH-1000XM5        4       Costco
+16        11        15   14.0  ...           iPhone 15        4       Costco
+17        10         9   17.0  ...   Kindle Paperwhite        4       Costco
+18        43         9   19.0  ...         Dell XPS 13        5   Home Depot
+19        36         3   25.0  ...       Nike Air Zoom        5   Home Depot
+20        32         6   29.0  ...  Samsung Galaxy S23        5   Home Depot
+21        28         6   27.0  ...    Philips Hue Bulb        5   Home Depot
+22        16         5   23.0  ...       Nike Air Zoom        5   Home Depot
+23        12         9   27.0  ...  Samsung Galaxy S23        5   Home Depot
+24        44         7   28.0  ...      MacBook Pro 14        6       Lowe's
+25        37        12   18.0  ...      Samsung 55" TV        6       Lowe's
+26        33         8   21.0  ...         Dell XPS 13        6       Lowe's
+27        29         9   24.0  ...     Fitbit Charge 5        6       Lowe's
+28        17         3   26.0  ...      Samsung 55" TV        6       Lowe's
+29        13        10   22.0  ...         Dell XPS 13        6       Lowe's
+30        45        10   25.0  ...     Sony WH-1000XM5        7  Apple Store
+31        38         9   20.0  ...    Philips Hue Bulb        7  Apple Store
+32        34         5   30.0  ...      MacBook Pro 14        7  Apple Store
+33        30         7   23.5  ...   Kindle Paperwhite        7  Apple Store
+34        18         6   28.0  ...    Philips Hue Bulb        7  Apple Store
+35        14         8   31.0  ...      MacBook Pro 14        7  Apple Store
+36        46         8   22.5  ...       Nike Air Zoom        8         IKEA
+37        39        10   22.0  ...     Fitbit Charge 5        8         IKEA
+38        19        11   20.0  ...     Fitbit Charge 5        8         IKEA
+39        47         6   24.0  ...      Samsung 55" TV        9    Walgreens
+40        40         6   26.0  ...   Kindle Paperwhite        9    Walgreens
+41        20         9   19.5  ...   Kindle Paperwhite        9    Walgreens
+
+[42 rows x 9 columns]
+2026-04-16 11:25:52,083-INFO-Test test_data_transformation_Joiner passed successfully.
+2026-04-16 11:25:52,085-INFO-mysql database connection has been closed..
+2026-04-16 11:26:54,897-INFO-mysql  database connection is being established..
+2026-04-16 11:26:54,897-INFO-mysql  database connection is being established..
+2026-04-16 11:26:54,900-INFO-mysql  database connection is being established..
+2026-04-16 11:26:54,917-INFO-mysql database connection has established..
+2026-04-16 11:26:54,919-INFO-mysql database connection has established..
+2026-04-16 11:26:54,921-INFO-mysql database connection has established..
+2026-04-16 11:26:54,921-INFO-mysql database connection has established..
+2026-04-16 11:26:54,943-INFO-Expected data in the file is:     product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          102         1                30   2024-09-02
+2          103         2                40   2024-09-03
+3          106         3                25   2024-09-06
+4          107         1                35   2024-09-07
+5          108         2                45   2024-09-08
+6          109         3                55   2024-09-09
+7          110         3                65   2024-09-10
+8          101         4                50   2024-09-11
+9          102         4                40   2024-09-12
+10         103         5                30   2024-09-13
+11         104         5                20   2024-09-14
+12         105         6                50   2024-09-15
+13         106         6                60   2024-09-16
+14         107         7                30   2024-09-17
+15         108         7                40   2024-09-18
+16         109         8                45   2024-09-19
+17         110         8                55   2024-09-20
+18         101         9                65   2024-09-21
+19         102         9                75   2024-09-22
+20         103        10                80   2024-09-23
+21         104        10                90   2024-09-24
+22         106         2               110   2024-09-26
+23         107         3               120   2024-09-27
+24         108         4               130   2024-09-28
+25         109         5               140   2024-09-29
+26         110         6               150   2024-09-30
+27         101         7               160   2024-10-01
+28         102         8               170   2024-10-02
+29         103         9               180   2024-10-03
+2026-04-16 11:26:54,947-INFO-Expected data in the file is:    store_id  total_inventory
+0         1            115.0
+1         2            195.0
+2         3            265.0
+3         4            220.0
+4         5            190.0
+5         6            260.0
+6         7            230.0
+7         8            270.0
+8         9            320.0
+9        10            170.0
+2026-04-16 11:26:54,948-INFO-Expected data in the file is:     product_id  year  month  total_sales
+0          101  2025      9        427.0
+1          101  2025     10        263.5
+2          102  2025      9        419.0
+3          102  2025     10        254.0
+4          103  2025      9        346.0
+5          103  2025     10        339.0
+6          104  2025      9        398.0
+7          104  2025     10        346.0
+8          105  2025      9        294.0
+9          105  2025     10        355.0
+10         106  2025      9        220.0
+11         106  2025     10        255.0
+12         107  2025      9        268.0
+13         107  2025     10        360.0
+14         108  2025      9        330.0
+15         108  2025     10        261.0
+16         109  2025      9        436.0
+17         109  2025     10        423.5
+18         110  2025      9        646.0
+19         110  2025     10        408.0
+2026-04-16 11:26:54,951-INFO-Expected data in the file is:     sales_id  product_id  store_id  quantity  total_sales   sale_date
+0         10         110         4         9        153.0  2025-09-10
+1         11         101         4        15        210.0  2025-09-11
+2         12         102         5         9        243.0  2025-09-12
+3         13         103         6        10        220.0  2025-09-13
+4         14         104         7         8        248.0  2025-09-14
+5         15         105         4        12        132.0  2025-09-15
+6         16         106         5         5        115.0  2025-09-16
+7         17         107         6         3         78.0  2025-09-17
+8         18         108         7         6        168.0  2025-09-18
+9         19         109         8        11        220.0  2025-09-19
+10        20         110         9         9        175.5  2025-09-20
+11        21         101         1        14        217.0  2025-09-21
+12        22         102         2         8        176.0  2025-09-22
+13        23         103         3         7        126.0  2025-09-23
+14        24         104         4         6        150.0  2025-09-24
+15        25         105         2        12        162.0  2025-09-25
+16        26         106         3         5        105.0  2025-09-26
+17        27         107         1        10        190.0  2025-09-27
+18        28         108         5         6        162.0  2025-09-28
+19        29         109         6         9        216.0  2025-09-29
+20        30         110         7         7        164.5  2025-09-30
+21        31         101         4        13        188.5  2025-10-01
+22        32         102         5         6        174.0  2025-10-02
+23        33         103         6         8        168.0  2025-10-03
+24        34         104         7         5        150.0  2025-10-04
+25        35         105         4         7        105.0  2025-10-05
+26        36         106         5         3         75.0  2025-10-06
+27        37         107         6        12        216.0  2025-10-07
+28        38         108         7         9        180.0  2025-10-08
+29        39         109         8        10        220.0  2025-10-09
+30        40         110         9         6        156.0  2025-10-10
+31        41         101         3         5         75.0  2025-10-11
+32        42         102         4         4         80.0  2025-10-12
+33        43         103         5         9        171.0  2025-10-13
+34        44         104         6         7        196.0  2025-10-14
+35        45         105         7        10        250.0  2025-10-15
+36        46         106         8         8        180.0  2025-10-16
+37        47         107         9         6        144.0  2025-10-17
+38        48         108         1         3         81.0  2025-10-18
+39        49         109         2        11        203.5  2025-10-19
+40        50         110         3        12        252.0  2025-10-20
+41        60         110         4         9        153.0  2025-09-10
+2026-04-16 11:26:54,956-INFO-Actual data in the file is:     product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          101         4                50   2024-09-11
+2          101         7               160   2024-10-01
+3          101         9                65   2024-09-21
+4          102         1                30   2024-09-02
+5          102         4                40   2024-09-12
+6          102         8               170   2024-10-02
+7          102         9                75   2024-09-22
+8          103         2                40   2024-09-03
+9          103         5                30   2024-09-13
+10         103         9               180   2024-10-03
+11         103        10                80   2024-09-23
+12         104         5                20   2024-09-14
+13         104        10                90   2024-09-24
+14         105         6                50   2024-09-15
+15         106         2               110   2024-09-26
+16         106         3                25   2024-09-06
+17         106         6                60   2024-09-16
+18         107         1                35   2024-09-07
+19         107         3               120   2024-09-27
+20         107         7                30   2024-09-17
+21         108         2                45   2024-09-08
+22         108         4               130   2024-09-28
+23         108         7                40   2024-09-18
+24         109         3                55   2024-09-09
+25         109         5               140   2024-09-29
+26         109         8                45   2024-09-19
+27         110         3                65   2024-09-10
+28         110         6               150   2024-09-30
+29         110         8                55   2024-09-20
+2026-04-16 11:26:54,956-INFO-Actual data in the file is:    store_id  total_inventory
+0         1              115
+1         2              195
+2         3              265
+3         4              220
+4         5              190
+5         6              260
+6         7              230
+7         8              270
+8         9              320
+9        10              170
+2026-04-16 11:26:54,961-INFO-Actual data in the file is:     product_id  year  month  total_sales
+0          101  2025      9        427.0
+1          101  2025     10        263.5
+2          102  2025      9        419.0
+3          102  2025     10        254.0
+4          103  2025      9        346.0
+5          103  2025     10        339.0
+6          104  2025      9        398.0
+7          104  2025     10        346.0
+8          105  2025      9        294.0
+9          105  2025     10        355.0
+10         106  2025      9        220.0
+11         106  2025     10        255.0
+12         107  2025      9        268.0
+13         107  2025     10        360.0
+14         108  2025      9        330.0
+15         108  2025     10        261.0
+16         109  2025      9        436.0
+17         109  2025     10        423.5
+18         110  2025      9        646.0
+19         110  2025     10        408.0
+2026-04-16 11:26:54,968-INFO-Actual data in the file is:     sales_id  product_id  store_id  quantity  total_sales   sale_date
+0         10         110         4         9        153.0  2025-09-10
+1         11         101         4        15        210.0  2025-09-11
+2         12         102         5         9        243.0  2025-09-12
+3         13         103         6        10        220.0  2025-09-13
+4         14         104         7         8        248.0  2025-09-14
+5         15         105         4        12        132.0  2025-09-15
+6         16         106         5         5        115.0  2025-09-16
+7         17         107         6         3         78.0  2025-09-17
+8         18         108         7         6        168.0  2025-09-18
+9         19         109         8        11        220.0  2025-09-19
+10        20         110         9         9        175.5  2025-09-20
+11        21         101         1        14        217.0  2025-09-21
+12        22         102         2         8        176.0  2025-09-22
+13        23         103         3         7        126.0  2025-09-23
+14        24         104         4         6        150.0  2025-09-24
+15        25         105         2        12        162.0  2025-09-25
+16        26         106         3         5        105.0  2025-09-26
+17        27         107         1        10        190.0  2025-09-27
+18        28         108         5         6        162.0  2025-09-28
+19        29         109         6         9        216.0  2025-09-29
+20        30         110         7         7        164.5  2025-09-30
+21        31         101         4        13        188.5  2025-10-01
+22        32         102         5         6        174.0  2025-10-02
+23        33         103         6         8        168.0  2025-10-03
+24        34         104         7         5        150.0  2025-10-04
+25        35         105         4         7        105.0  2025-10-05
+26        36         106         5         3         75.0  2025-10-06
+27        37         107         6        12        216.0  2025-10-07
+28        38         108         7         9        180.0  2025-10-08
+29        39         109         8        10        220.0  2025-10-09
+30        40         110         9         6        156.0  2025-10-10
+31        41         101         3         5         75.0  2025-10-11
+32        42         102         4         4         80.0  2025-10-12
+33        43         103         5         9        171.0  2025-10-13
+34        44         104         6         7        196.0  2025-10-14
+35        45         105         7        10        250.0  2025-10-15
+36        46         106         8         8        180.0  2025-10-16
+37        47         107         9         6        144.0  2025-10-17
+38        48         108         1         3         81.0  2025-10-18
+39        49         109         2        11        203.5  2025-10-19
+40        50         110         3        12        252.0  2025-10-20
+41        60         110         4         9        153.0  2025-09-10
+2026-04-16 11:26:54,972-ERROR-Error in test_data_loading_fact_inventory_level_by_stores: Data mismatch in test_data_loading_fact_inventory_level_by_stores. See 'differences' folder.
+2026-04-16 11:26:54,973-ERROR-error while sales data loading checks..
+2026-04-16 11:26:54,974-INFO-mysql database connection has been closed..
+2026-04-16 11:26:54,975-INFO-Test test_data_loading_monthly_sales_summary passed successfully.
+2026-04-16 11:26:54,977-INFO-mysql database connection has been closed..
+2026-04-16 11:26:54,989-WARNING-test_data_loading_fact_inventory: Found 30 rows in file but not in DB.
+2026-04-16 11:26:54,992-WARNING-test_data_loading_fact_inventory: Found 30 rows in DB but not in file.
+2026-04-16 11:26:54,993-ERROR-Error in test_data_loading_fact_inventory: Data mismatch in test_data_loading_fact_inventory. See 'differences' folder.
+2026-04-16 11:26:54,993-ERROR-error while sales data loading checks..
+2026-04-16 11:26:54,995-INFO-mysql database connection has been closed..
+2026-04-16 11:26:55,008-WARNING-test_data_loading_fact_sales: Found 42 rows in file but not in DB.
+2026-04-16 11:26:55,012-WARNING-test_data_loading_fact_sales: Found 42 rows in DB but not in file.
+2026-04-16 11:26:55,013-ERROR-Error in test_data_loading_fact_sales: Data mismatch in test_data_loading_fact_sales. See 'differences' folder.
+2026-04-16 11:26:55,014-ERROR-error while sales data loading checks..
+2026-04-16 11:26:55,017-INFO-mysql database connection has been closed..
+2026-04-16 11:30:48,053-INFO-The data in the file is :     sales_id  product_id  store_id  quantity  price   sale_date region
+0        101         101         1        10   15.0  2025-09-01   High
+1          1         101         1        10   15.0  2025-09-01   High
+2          2         102         1         5   25.0  2025-09-01    Low
+3          3         103         2         7   20.0  2025-09-02   High
+4          4         104         2         3   30.0  2025-09-03    Low
+..       ...         ...       ...       ...    ...         ...    ...
+56        56         106         3         8   18.0  2025-09-06    Low
+57        57         107         1         4   22.0  2025-09-07   High
+58        58         108         2         6   24.0  2025-09-08    Low
+59        59         109         3        11   19.0  2025-09-09   High
+60        60         110         4         9   17.0  2025-09-10    Low
+
+[61 rows x 7 columns]
+2026-04-16 11:30:48,056-INFO-The data in the file is :     sales_id  product_id  store_id  quantity  price   sale_date region
+0        101         101         1        10   15.0  2025-09-01   High
+1          1         101         1        10   15.0  2025-09-01   High
+2          2         102         1         5   25.0  2025-09-01    Low
+3          3         103         2         7   20.0  2025-09-02   High
+4          4         104         2         3   30.0  2025-09-03    Low
+..       ...         ...       ...       ...    ...         ...    ...
+56        56         106         3         8   18.0  2025-09-06    Low
+57        57         107         1         4   22.0  2025-09-07   High
+58        58         108         2         6   24.0  2025-09-08    Low
+59        59         109         3        11   19.0  2025-09-09   High
+60        60         110         4         9   17.0  2025-09-10    Low
+
+[61 rows x 7 columns]
+2026-04-16 11:30:48,059-INFO-The data in the file is :    supplier_id         supplier_name  ... rating last_order_date
+0            1      ABC Distributors  ...    4.8      2024-11-20
+1            2     Global Goods Inc.  ...    4.3      2024-11-19
+2            3   GreenTech Solutions  ...    4.6      2024-11-18
+3            4              EuroWare  ...    4.2      2024-11-22
+4            5      Pacific Products  ...    4.7      2024-11-17
+5            6     Fresh Produce Co.  ...    4.4      2024-11-21
+6            7  TechCore Electronics  ...    4.9      2024-11-23
+7            8       HanYang Trading  ...    4.1      2024-11-16
+8            9         Indo Supplies  ...    4.3      2024-11-25
+9           10         LatAm Imports  ...    4.5      2024-11-20
+
+[10 rows x 8 columns]
+2026-04-16 11:30:48,060-INFO-The data in the file is :    supplier_id         supplier_name  ... rating last_order_date
+0            1      ABC Distributors  ...    4.8      2024-11-20
+1            2     Global Goods Inc.  ...    4.3      2024-11-19
+2            3   GreenTech Solutions  ...    4.6      2024-11-18
+3            4              EuroWare  ...    4.2      2024-11-22
+4            5      Pacific Products  ...    4.7      2024-11-17
+5            6     Fresh Produce Co.  ...    4.4      2024-11-21
+6            7  TechCore Electronics  ...    4.9      2024-11-23
+7            8       HanYang Trading  ...    4.1      2024-11-16
+8            9         Indo Supplies  ...    4.3      2024-11-25
+9           10         LatAm Imports  ...    4.5      2024-11-20
+
+[10 rows x 8 columns]
+2026-04-16 11:30:48,093-INFO-The data in the file is :    product_id        product_name     category  ...  stock_quantity    brand rating
+0         101           iPhone 15  Smartphones  ...              50    Apple    4.8
+1         102  Samsung Galaxy S23  Smartphones  ...              75  Samsung    4.7
+2         103         Dell XPS 13      Laptops  ...              30     Dell    4.6
+3         104      MacBook Pro 14      Laptops  ...              25    Apple    4.9
+4         105     Sony WH-1000XM5   Headphones  ...             100     Sony    4.7
+5         106       Nike Air Zoom     Sneakers  ...             200     Nike    4.5
+6         107      Samsung 55" TV  Electronics  ...              40  Samsung    4.4
+7         108    Philips Hue Bulb   Smart Home  ...             500  Philips    4.8
+8         109     Fitbit Charge 5    Wearables  ...             150   Fitbit    4.6
+9         110   Kindle Paperwhite     eReaders  ...              80   Amazon    4.7
+
+[10 rows x 7 columns]
+2026-04-16 11:30:48,096-INFO-The data in the file is :    product_id        product_name     category  ...  stock_quantity    brand rating
+0         101           iPhone 15  Smartphones  ...              50    Apple    4.8
+1         102  Samsung Galaxy S23  Smartphones  ...              75  Samsung    4.7
+2         103         Dell XPS 13      Laptops  ...              30     Dell    4.6
+3         104      MacBook Pro 14      Laptops  ...              25    Apple    4.9
+4         105     Sony WH-1000XM5   Headphones  ...             100     Sony    4.7
+5         106       Nike Air Zoom     Sneakers  ...             200     Nike    4.5
+6         107      Samsung 55" TV  Electronics  ...              40  Samsung    4.4
+7         108    Philips Hue Bulb   Smart Home  ...             500  Philips    4.8
+8         109     Fitbit Charge 5    Wearables  ...             150   Fitbit    4.6
+9         110   Kindle Paperwhite     eReaders  ...              80   Amazon    4.7
+
+[10 rows x 7 columns]
+2026-04-16 11:30:48,099-INFO-mysql  database connection is being established..
+2026-04-16 11:30:48,104-INFO-mysql  database connection is being established..
+2026-04-16 11:30:48,115-INFO-The data in the file is :     product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          102         1                30   2024-09-02
+2          103         2                40   2024-09-03
+3          106         3                25   2024-09-06
+4          107         1                35   2024-09-07
+5          108         2                45   2024-09-08
+6          109         3                55   2024-09-09
+7          110         3                65   2024-09-10
+8          101         4                50   2024-09-11
+9          102         4                40   2024-09-12
+10         103         5                30   2024-09-13
+11         104         5                20   2024-09-14
+12         105         6                50   2024-09-15
+13         106         6                60   2024-09-16
+14         107         7                30   2024-09-17
+15         108         7                40   2024-09-18
+16         109         8                45   2024-09-19
+17         110         8                55   2024-09-20
+18         101         9                65   2024-09-21
+19         102         9                75   2024-09-22
+20         103        10                80   2024-09-23
+21         104        10                90   2024-09-24
+22         106         2               110   2024-09-26
+23         107         3               120   2024-09-27
+24         108         4               130   2024-09-28
+25         109         5               140   2024-09-29
+26         110         6               150   2024-09-30
+27         101         7               160   2024-10-01
+28         102         8               170   2024-10-02
+29         103         9               180   2024-10-03
+2026-04-16 11:30:48,117-ERROR-error while duplicate check..
+2026-04-16 11:30:48,120-INFO-The data in the file is :     product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          102         1                30   2024-09-02
+2          103         2                40   2024-09-03
+3          106         3                25   2024-09-06
+4          107         1                35   2024-09-07
+5          108         2                45   2024-09-08
+6          109         3                55   2024-09-09
+7          110         3                65   2024-09-10
+8          101         4                50   2024-09-11
+9          102         4                40   2024-09-12
+10         103         5                30   2024-09-13
+11         104         5                20   2024-09-14
+12         105         6                50   2024-09-15
+13         106         6                60   2024-09-16
+14         107         7                30   2024-09-17
+15         108         7                40   2024-09-18
+16         109         8                45   2024-09-19
+17         110         8                55   2024-09-20
+18         101         9                65   2024-09-21
+19         102         9                75   2024-09-22
+20         103        10                80   2024-09-23
+21         104        10                90   2024-09-24
+22         106         2               110   2024-09-26
+23         107         3               120   2024-09-27
+24         108         4               130   2024-09-28
+25         109         5               140   2024-09-29
+26         110         6               150   2024-09-30
+27         101         7               160   2024-10-01
+28         102         8               170   2024-10-02
+29         103         9               180   2024-10-03
+2026-04-16 11:30:48,124-INFO-mysql database connection has established..
+2026-04-16 11:30:48,126-INFO-Checking for duplicates in product_id for table fact_sales
+2026-04-16 11:30:48,130-WARNING-Duplicates found in product_id. Examples: [(110, 6), (101, 4), (102, 4), (103, 4), (104, 4)]
+2026-04-16 11:30:48,132-INFO-mysql database connection has been closed..
+2026-04-16 11:30:48,134-INFO-mysql database connection has established..
+2026-04-16 11:30:48,134-INFO-mysql  database connection is being established..
+2026-04-16 11:30:48,137-INFO-Checking for duplicates in product_id for table monthly_sales_summary
+2026-04-16 11:30:48,141-WARNING-Duplicates found in product_id. Examples: [(101, 2), (102, 2), (103, 2), (104, 2), (105, 2)]
+2026-04-16 11:30:48,143-INFO-mysql database connection has been closed..
+2026-04-16 11:30:48,145-INFO-mysql  database connection is being established..
+2026-04-16 11:30:48,152-INFO-mysql  database connection is being established..
+2026-04-16 11:30:48,156-INFO-mysql database connection has established..
+2026-04-16 11:30:48,157-INFO-Checking for duplicates in product_id for table fact_inventory
+2026-04-16 11:30:48,159-WARNING-Duplicates found in product_id. Examples: [(101, 4), (102, 4), (103, 4), (104, 2), (106, 3)]
+2026-04-16 11:30:48,160-INFO-mysql database connection has established..
+2026-04-16 11:30:48,161-INFO-mysql database connection has been closed..
+2026-04-16 11:30:48,161-INFO-Starting Duplicate Validation for fact_inventory
+2026-04-16 11:30:48,162-INFO-Checking for duplicates in store_id for table inventory_levels_by_store
+2026-04-16 11:30:48,165-INFO-mysql database connection has been closed..
+2026-04-16 11:30:48,170-INFO-Duplicate check passed: Table is clean.
+2026-04-16 11:30:48,171-INFO-mysql  database connection is being established..
+2026-04-16 11:30:48,172-INFO-mysql database connection has been closed..
+2026-04-16 11:30:48,180-INFO-mysql  database connection is being established..
+2026-04-16 11:30:48,200-INFO-mysql database connection has established..
+2026-04-16 11:30:48,201-INFO-Starting Duplicate Validation for monthly_sales_summary
+2026-04-16 11:30:48,201-INFO-Starting Duplicate Validation for inventory_levels_by_store
+2026-04-16 11:30:48,207-INFO-Duplicate check passed: Table is clean.
+2026-04-16 11:30:48,208-INFO-mysql database connection has been closed..
+2026-04-16 11:30:48,247-INFO-The data in the file is :     sales_id  product_id  store_id  quantity  price   sale_date region
+0        101         101         1        10   15.0  2025-09-01   High
+1          1         101         1        10   15.0  2025-09-01   High
+2          2         102         1         5   25.0  2025-09-01    Low
+3          3         103         2         7   20.0  2025-09-02   High
+4          4         104         2         3   30.0  2025-09-03    Low
+..       ...         ...       ...       ...    ...         ...    ...
+56        56         106         3         8   18.0  2025-09-06    Low
+57        57         107         1         4   22.0  2025-09-07   High
+58        58         108         2         6   24.0  2025-09-08    Low
+59        59         109         3        11   19.0  2025-09-09   High
+60        60         110         4         9   17.0  2025-09-10    Low
+
+[61 rows x 7 columns]
+2026-04-16 11:30:48,248-INFO-The data in the file is :    product_id        product_name     category  ...  stock_quantity    brand rating
+0         101           iPhone 15  Smartphones  ...              50    Apple    4.8
+1         102  Samsung Galaxy S23  Smartphones  ...              75  Samsung    4.7
+2         103         Dell XPS 13      Laptops  ...              30     Dell    4.6
+3         104      MacBook Pro 14      Laptops  ...              25    Apple    4.9
+4         105     Sony WH-1000XM5   Headphones  ...             100     Sony    4.7
+5         106       Nike Air Zoom     Sneakers  ...             200     Nike    4.5
+6         107      Samsung 55" TV  Electronics  ...              40  Samsung    4.4
+7         108    Philips Hue Bulb   Smart Home  ...             500  Philips    4.8
+8         109     Fitbit Charge 5    Wearables  ...             150   Fitbit    4.6
+9         110   Kindle Paperwhite     eReaders  ...              80   Amazon    4.7
+
+[10 rows x 7 columns]
+2026-04-16 11:30:48,281-INFO-The data in the file is :    supplier_id         supplier_name  ... rating last_order_date
+0            1      ABC Distributors  ...    4.8      2024-11-20
+1            2     Global Goods Inc.  ...    4.3      2024-11-19
+2            3   GreenTech Solutions  ...    4.6      2024-11-18
+3            4              EuroWare  ...    4.2      2024-11-22
+4            5      Pacific Products  ...    4.7      2024-11-17
+5            6     Fresh Produce Co.  ...    4.4      2024-11-21
+6            7  TechCore Electronics  ...    4.9      2024-11-23
+7            8       HanYang Trading  ...    4.1      2024-11-16
+8            9         Indo Supplies  ...    4.3      2024-11-25
+9           10         LatAm Imports  ...    4.5      2024-11-20
+
+[10 rows x 8 columns]
+2026-04-16 11:30:48,283-INFO-The data in the file is :     product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          102         1                30   2024-09-02
+2          103         2                40   2024-09-03
+3          106         3                25   2024-09-06
+4          107         1                35   2024-09-07
+5          108         2                45   2024-09-08
+6          109         3                55   2024-09-09
+7          110         3                65   2024-09-10
+8          101         4                50   2024-09-11
+9          102         4                40   2024-09-12
+10         103         5                30   2024-09-13
+11         104         5                20   2024-09-14
+12         105         6                50   2024-09-15
+13         106         6                60   2024-09-16
+14         107         7                30   2024-09-17
+15         108         7                40   2024-09-18
+16         109         8                45   2024-09-19
+17         110         8                55   2024-09-20
+18         101         9                65   2024-09-21
+19         102         9                75   2024-09-22
+20         103        10                80   2024-09-23
+21         104        10                90   2024-09-24
+22         106         2               110   2024-09-26
+23         107         3               120   2024-09-27
+24         108         4               130   2024-09-28
+25         109         5               140   2024-09-29
+26         110         6               150   2024-09-30
+27         101         7               160   2024-10-01
+28         102         8               170   2024-10-02
+29         103         9               180   2024-10-03
+2026-04-16 11:30:48,290-INFO-mysql  database connection is being established..
+2026-04-16 11:30:48,298-INFO-mysql database connection has established..
+2026-04-16 11:30:48,299-INFO-Starting NULL value validation for fact_sales.product_id
+2026-04-16 11:30:48,301-INFO-NULL check passed for fact_sales.product_id
+2026-04-16 11:30:48,302-INFO-mysql database connection has been closed..
+2026-04-16 11:30:48,303-INFO-The data in the file is :     sales_id  product_id  store_id  quantity  price   sale_date region
+0        101         101         1        10   15.0  2025-09-01   High
+1          1         101         1        10   15.0  2025-09-01   High
+2          2         102         1         5   25.0  2025-09-01    Low
+3          3         103         2         7   20.0  2025-09-02   High
+4          4         104         2         3   30.0  2025-09-03    Low
+..       ...         ...       ...       ...    ...         ...    ...
+56        56         106         3         8   18.0  2025-09-06    Low
+57        57         107         1         4   22.0  2025-09-07   High
+58        58         108         2         6   24.0  2025-09-08    Low
+59        59         109         3        11   19.0  2025-09-09   High
+60        60         110         4         9   17.0  2025-09-10    Low
+
+[61 rows x 7 columns]
+2026-04-16 11:30:48,310-INFO-mysql  database connection is being established..
+2026-04-16 11:30:48,312-INFO-mysql  database connection is being established..
+2026-04-16 11:30:48,342-INFO-mysql database connection has established..
+2026-04-16 11:30:48,343-INFO-mysql database connection has established..
+2026-04-16 11:30:48,343-INFO-Starting NULL value validation for fact_inventory.product_id
+2026-04-16 11:30:48,344-INFO-Starting NULL value validation for inventory_levels_by_store.store_id
+2026-04-16 11:30:48,345-INFO-NULL check passed for fact_inventory.product_id
+2026-04-16 11:30:48,346-INFO-NULL check passed for inventory_levels_by_store.store_id
+2026-04-16 11:30:48,346-INFO-mysql database connection has been closed..
+2026-04-16 11:30:48,347-INFO-mysql database connection has been closed..
+2026-04-16 11:30:48,355-INFO-mysql  database connection is being established..
+2026-04-16 11:30:48,357-INFO-mysql  database connection is being established..
+2026-04-16 11:30:48,362-INFO-mysql database connection has established..
+2026-04-16 11:30:48,386-INFO-mysql database connection has been closed..
+2026-04-16 11:30:48,389-INFO-mysql database connection has established..
+2026-04-16 11:30:48,390-INFO-Starting NULL value validation for monthly_sales_summary.product_id
+2026-04-16 11:30:48,398-INFO-NULL check passed for monthly_sales_summary.product_id
+2026-04-16 11:30:48,399-INFO-mysql database connection has been closed..
+2026-04-16 11:30:48,638-INFO-mysql  database connection is being established..
+2026-04-16 11:30:48,659-INFO-mysql database connection has established..
+2026-04-16 11:30:48,662-INFO-Starting Duplicate Validation for fact_sales
+2026-04-16 11:30:48,669-INFO-Duplicate check passed: Table is clean.
+2026-04-16 11:30:48,671-INFO-mysql database connection has been closed..
+2026-04-16 11:30:48,831-INFO-mysql database connection has been closed..
+2026-04-16 11:48:35,940-INFO-mysql  database connection is being established..
+2026-04-16 11:48:35,942-INFO-mysql  database connection is being established..
+2026-04-16 11:48:35,961-INFO-mysql database connection has established..
+2026-04-16 11:48:35,961-INFO-mysql database connection has established..
+2026-04-16 11:48:35,962-INFO-Starting execution of: test_data_types_of_columns_in_the_fact_sales
+2026-04-16 11:48:35,963-INFO-mysql database connection has been closed..
+2026-04-16 11:48:35,964-INFO-mysql database connection has established..
+2026-04-16 11:48:35,966-INFO-Starting execution of: test_data_types_of_columns_in_the_fact_inventory
+2026-04-16 11:48:35,966-INFO-mysql database connection has established..
+2026-04-16 11:48:35,968-INFO-Starting execution of: test_data_types_of_columns_in_the_monthly_sales_summary
+2026-04-16 11:48:35,968-INFO-mysql  database connection is being established..
+2026-04-16 11:48:35,974-INFO-mysql database connection has established..
+2026-04-16 11:48:35,975-INFO-Starting execution of: test_data_types_of_columns__in_the_inventory_levels_by_store
+2026-04-16 11:48:35,987-INFO-mysql database connection has been closed..
+2026-04-16 11:48:35,989-INFO-mysql database connection has been closed..
+2026-04-16 11:48:35,995-INFO-mysql database connection has been closed..
+2026-04-16 11:48:36,007-INFO-mysql database connection has been closed..
+2026-04-16 11:50:53,207-INFO-mysql  database connection is being established..
+2026-04-16 11:50:53,207-INFO-mysql  database connection is being established..
+2026-04-16 11:50:53,209-INFO-mysql  database connection is being established..
+2026-04-16 11:50:53,227-INFO-mysql database connection has established..
+2026-04-16 11:50:53,232-INFO-mysql database connection has established..
+2026-04-16 11:50:53,235-INFO-mysql database connection has established..
+2026-04-16 11:50:53,245-INFO-The data in the file is :     sales_id  product_id  store_id  quantity  price   sale_date region
+0        101         101         1        10   15.0  2025-09-01   High
+1          1         101         1        10   15.0  2025-09-01   High
+2          2         102         1         5   25.0  2025-09-01    Low
+3          3         103         2         7   20.0  2025-09-02   High
+4          4         104         2         3   30.0  2025-09-03    Low
+..       ...         ...       ...       ...    ...         ...    ...
+56        56         106         3         8   18.0  2025-09-06    Low
+57        57         107         1         4   22.0  2025-09-07   High
+58        58         108         2         6   24.0  2025-09-08    Low
+59        59         109         3        11   19.0  2025-09-09   High
+60        60         110         4         9   17.0  2025-09-10    Low
+
+[61 rows x 7 columns]
+2026-04-16 11:50:53,271-INFO-The data in the file is :    product_id        product_name     category  ...  stock_quantity    brand rating
+0         101           iPhone 15  Smartphones  ...              50    Apple    4.8
+1         102  Samsung Galaxy S23  Smartphones  ...              75  Samsung    4.7
+2         103         Dell XPS 13      Laptops  ...              30     Dell    4.6
+3         104      MacBook Pro 14      Laptops  ...              25    Apple    4.9
+4         105     Sony WH-1000XM5   Headphones  ...             100     Sony    4.7
+5         106       Nike Air Zoom     Sneakers  ...             200     Nike    4.5
+6         107      Samsung 55" TV  Electronics  ...              40  Samsung    4.4
+7         108    Philips Hue Bulb   Smart Home  ...             500  Philips    4.8
+8         109     Fitbit Charge 5    Wearables  ...             150   Fitbit    4.6
+9         110   Kindle Paperwhite     eReaders  ...              80   Amazon    4.7
+
+[10 rows x 7 columns]
+2026-04-16 11:50:53,272-INFO-Expected data in the file is:     sales_id  product_id  store_id  quantity  total_sales   sale_date
+0         10         110         4         9        153.0  2025-09-10
+1         11         101         4        15        210.0  2025-09-11
+2         12         102         5         9        243.0  2025-09-12
+3         13         103         6        10        220.0  2025-09-13
+4         14         104         7         8        248.0  2025-09-14
+5         15         105         4        12        132.0  2025-09-15
+6         16         106         5         5        115.0  2025-09-16
+7         17         107         6         3         78.0  2025-09-17
+8         18         108         7         6        168.0  2025-09-18
+9         19         109         8        11        220.0  2025-09-19
+10        20         110         9         9        175.5  2025-09-20
+11        21         101         1        14        217.0  2025-09-21
+12        22         102         2         8        176.0  2025-09-22
+13        23         103         3         7        126.0  2025-09-23
+14        24         104         4         6        150.0  2025-09-24
+15        25         105         2        12        162.0  2025-09-25
+16        26         106         3         5        105.0  2025-09-26
+17        27         107         1        10        190.0  2025-09-27
+18        28         108         5         6        162.0  2025-09-28
+19        29         109         6         9        216.0  2025-09-29
+20        30         110         7         7        164.5  2025-09-30
+21        31         101         4        13        188.5  2025-10-01
+22        32         102         5         6        174.0  2025-10-02
+23        33         103         6         8        168.0  2025-10-03
+24        34         104         7         5        150.0  2025-10-04
+25        35         105         4         7        105.0  2025-10-05
+26        36         106         5         3         75.0  2025-10-06
+27        37         107         6        12        216.0  2025-10-07
+28        38         108         7         9        180.0  2025-10-08
+29        39         109         8        10        220.0  2025-10-09
+30        40         110         9         6        156.0  2025-10-10
+31        41         101         3         5         75.0  2025-10-11
+32        42         102         4         4         80.0  2025-10-12
+33        43         103         5         9        171.0  2025-10-13
+34        44         104         6         7        196.0  2025-10-14
+35        45         105         7        10        250.0  2025-10-15
+36        46         106         8         8        180.0  2025-10-16
+37        47         107         9         6        144.0  2025-10-17
+38        48         108         1         3         81.0  2025-10-18
+39        49         109         2        11        203.5  2025-10-19
+40        50         110         3        12        252.0  2025-10-20
+41        60         110         4         9        153.0  2025-09-10
+2026-04-16 11:50:53,274-INFO-Test test_data_extraction_from_inventory_data_to_stage passed successfully.
+2026-04-16 11:50:53,275-ERROR-FAILURE: 1 rows found in FILE but missing in DB.
+2026-04-16 11:50:53,276-ERROR-Critical Error in test_data_extraction_from_sales_data_to_stage: Test Failed for test_data_extraction_from_sales_data_to_stage:
+FAILURE: 1 rows found in FILE but missing in DB.
+2026-04-16 11:50:53,276-ERROR-error while sales data extraction checks..
+2026-04-16 11:50:53,276-INFO-mysql database connection has been closed..
+2026-04-16 11:50:53,277-INFO-mysql database connection has been closed..
+2026-04-16 11:50:53,283-INFO-mysql  database connection is being established..
+2026-04-16 11:50:53,284-INFO-mysql  database connection is being established..
+2026-04-16 11:50:53,289-INFO-mysql database connection has established..
+2026-04-16 11:50:53,289-INFO-Oracle database connection is being established..
+2026-04-16 11:50:53,293-INFO-Actual data in the file is:     sales_id  product_id  store_id  quantity  total_sales   sale_date
+0         10         110         4         9        153.0  2025-09-10
+1         11         101         4        15        210.0  2025-09-11
+2         12         102         5         9        243.0  2025-09-12
+3         13         103         6        10        220.0  2025-09-13
+4         14         104         7         8        248.0  2025-09-14
+5         15         105         4        12        132.0  2025-09-15
+6         16         106         5         5        115.0  2025-09-16
+7         17         107         6         3         78.0  2025-09-17
+8         18         108         7         6        168.0  2025-09-18
+9         19         109         8        11        220.0  2025-09-19
+10        20         110         9         9        175.5  2025-09-20
+11        21         101         1        14        217.0  2025-09-21
+12        22         102         2         8        176.0  2025-09-22
+13        23         103         3         7        126.0  2025-09-23
+14        24         104         4         6        150.0  2025-09-24
+15        25         105         2        12        162.0  2025-09-25
+16        26         106         3         5        105.0  2025-09-26
+17        27         107         1        10        190.0  2025-09-27
+18        28         108         5         6        162.0  2025-09-28
+19        29         109         6         9        216.0  2025-09-29
+20        30         110         7         7        164.5  2025-09-30
+21        31         101         4        13        188.5  2025-10-01
+22        32         102         5         6        174.0  2025-10-02
+23        33         103         6         8        168.0  2025-10-03
+24        34         104         7         5        150.0  2025-10-04
+25        35         105         4         7        105.0  2025-10-05
+26        36         106         5         3         75.0  2025-10-06
+27        37         107         6        12        216.0  2025-10-07
+28        38         108         7         9        180.0  2025-10-08
+29        39         109         8        10        220.0  2025-10-09
+30        40         110         9         6        156.0  2025-10-10
+31        41         101         3         5         75.0  2025-10-11
+32        42         102         4         4         80.0  2025-10-12
+33        43         103         5         9        171.0  2025-10-13
+34        44         104         6         7        196.0  2025-10-14
+35        45         105         7        10        250.0  2025-10-15
+36        46         106         8         8        180.0  2025-10-16
+37        47         107         9         6        144.0  2025-10-17
+38        48         108         1         3         81.0  2025-10-18
+39        49         109         2        11        203.5  2025-10-19
+40        50         110         3        12        252.0  2025-10-20
+41        60         110         4         9        153.0  2025-09-10
+2026-04-16 11:50:53,309-INFO-mysql database connection has established..
+2026-04-16 11:50:53,310-INFO-The data in the file is :    supplier_id         supplier_name  ... rating last_order_date
+0            1      ABC Distributors  ...    4.8      2024-11-20
+1            2     Global Goods Inc.  ...    4.3      2024-11-19
+2            3   GreenTech Solutions  ...    4.6      2024-11-18
+3            4              EuroWare  ...    4.2      2024-11-22
+4            5      Pacific Products  ...    4.7      2024-11-17
+5            6     Fresh Produce Co.  ...    4.4      2024-11-21
+6            7  TechCore Electronics  ...    4.9      2024-11-23
+7            8       HanYang Trading  ...    4.1      2024-11-16
+8            9         Indo Supplies  ...    4.3      2024-11-25
+9           10         LatAm Imports  ...    4.5      2024-11-20
+
+[10 rows x 8 columns]
+2026-04-16 11:50:53,328-WARNING-test_data_loading_fact_sales: Found 42 rows in file but not in DB.
+2026-04-16 11:50:53,330-WARNING-test_data_loading_fact_sales: Found 42 rows in DB but not in file.
+2026-04-16 11:50:53,331-ERROR-Error in test_data_loading_fact_sales: Data mismatch in test_data_loading_fact_sales. See 'differences' folder.
+2026-04-16 11:50:53,331-ERROR-error while sales data loading checks..
+2026-04-16 11:50:53,331-INFO-Test test_data_extraction_from_product_data_to_stage passed successfully.
+2026-04-16 11:50:53,333-INFO-mysql database connection has been closed..
+2026-04-16 11:50:53,338-INFO-mysql  database connection is being established..
+2026-04-16 11:50:53,339-INFO-mysql  database connection is being established..
+2026-04-16 11:50:53,344-INFO-The data in the file is :     product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          102         1                30   2024-09-02
+2          103         2                40   2024-09-03
+3          106         3                25   2024-09-06
+4          107         1                35   2024-09-07
+5          108         2                45   2024-09-08
+6          109         3                55   2024-09-09
+7          110         3                65   2024-09-10
+8          101         4                50   2024-09-11
+9          102         4                40   2024-09-12
+10         103         5                30   2024-09-13
+11         104         5                20   2024-09-14
+12         105         6                50   2024-09-15
+13         106         6                60   2024-09-16
+14         107         7                30   2024-09-17
+15         108         7                40   2024-09-18
+16         109         8                45   2024-09-19
+17         110         8                55   2024-09-20
+18         101         9                65   2024-09-21
+19         102         9                75   2024-09-22
+20         103        10                80   2024-09-23
+21         104        10                90   2024-09-24
+22         106         2               110   2024-09-26
+23         107         3               120   2024-09-27
+24         108         4               130   2024-09-28
+25         109         5               140   2024-09-29
+26         110         6               150   2024-09-30
+27         101         7               160   2024-10-01
+28         102         8               170   2024-10-02
+29         103         9               180   2024-10-03
+2026-04-16 11:50:53,345-INFO-mysql database connection has established..
+2026-04-16 11:50:53,353-INFO-mysql database connection has established..
+2026-04-16 11:50:53,364-INFO-The data in the file is :     sales_id  product_id  store_id  quantity  price   sale_date region
+0        101         101         1        10   15.0  2025-09-01   High
+1          1         101         1        10   15.0  2025-09-01   High
+2          2         102         1         5   25.0  2025-09-01    Low
+3          3         103         2         7   20.0  2025-09-02   High
+4          4         104         2         3   30.0  2025-09-03    Low
+..       ...         ...       ...       ...    ...         ...    ...
+56        56         106         3         8   18.0  2025-09-06    Low
+57        57         107         1         4   22.0  2025-09-07   High
+58        58         108         2         6   24.0  2025-09-08    Low
+59        59         109         3        11   19.0  2025-09-09   High
+60        60         110         4         9   17.0  2025-09-10    Low
+
+[61 rows x 7 columns]
+2026-04-16 11:50:53,366-INFO-Expected data in the file is:     product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          102         1                30   2024-09-02
+2          103         2                40   2024-09-03
+3          106         3                25   2024-09-06
+4          107         1                35   2024-09-07
+5          108         2                45   2024-09-08
+6          109         3                55   2024-09-09
+7          110         3                65   2024-09-10
+8          101         4                50   2024-09-11
+9          102         4                40   2024-09-12
+10         103         5                30   2024-09-13
+11         104         5                20   2024-09-14
+12         105         6                50   2024-09-15
+13         106         6                60   2024-09-16
+14         107         7                30   2024-09-17
+15         108         7                40   2024-09-18
+16         109         8                45   2024-09-19
+17         110         8                55   2024-09-20
+18         101         9                65   2024-09-21
+19         102         9                75   2024-09-22
+20         103        10                80   2024-09-23
+21         104        10                90   2024-09-24
+22         106         2               110   2024-09-26
+23         107         3               120   2024-09-27
+24         108         4               130   2024-09-28
+25         109         5               140   2024-09-29
+26         110         6               150   2024-09-30
+27         101         7               160   2024-10-01
+28         102         8               170   2024-10-02
+29         103         9               180   2024-10-03
+2026-04-16 11:50:53,373-INFO-Test test_data_extraction_from_supplier_data_to_stage passed successfully.
+2026-04-16 11:50:53,375-INFO-mysql database connection has been closed..
+2026-04-16 11:50:53,381-INFO-Actual data in the file is:     product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          101         4                50   2024-09-11
+2          101         7               160   2024-10-01
+3          101         9                65   2024-09-21
+4          102         1                30   2024-09-02
+5          102         4                40   2024-09-12
+6          102         8               170   2024-10-02
+7          102         9                75   2024-09-22
+8          103         2                40   2024-09-03
+9          103         5                30   2024-09-13
+10         103         9               180   2024-10-03
+11         103        10                80   2024-09-23
+12         104         5                20   2024-09-14
+13         104        10                90   2024-09-24
+14         105         6                50   2024-09-15
+15         106         2               110   2024-09-26
+16         106         3                25   2024-09-06
+17         106         6                60   2024-09-16
+18         107         1                35   2024-09-07
+19         107         3               120   2024-09-27
+20         107         7                30   2024-09-17
+21         108         2                45   2024-09-08
+22         108         4               130   2024-09-28
+23         108         7                40   2024-09-18
+24         109         3                55   2024-09-09
+25         109         5               140   2024-09-29
+26         109         8                45   2024-09-19
+27         110         3                65   2024-09-10
+28         110         6               150   2024-09-30
+29         110         8                55   2024-09-20
+2026-04-16 11:50:53,389-INFO-The data in the file is :    product_id        product_name     category  ...  stock_quantity    brand rating
+0         101           iPhone 15  Smartphones  ...              50    Apple    4.8
+1         102  Samsung Galaxy S23  Smartphones  ...              75  Samsung    4.7
+2         103         Dell XPS 13      Laptops  ...              30     Dell    4.6
+3         104      MacBook Pro 14      Laptops  ...              25    Apple    4.9
+4         105     Sony WH-1000XM5   Headphones  ...             100     Sony    4.7
+5         106       Nike Air Zoom     Sneakers  ...             200     Nike    4.5
+6         107      Samsung 55" TV  Electronics  ...              40  Samsung    4.4
+7         108    Philips Hue Bulb   Smart Home  ...             500  Philips    4.8
+8         109     Fitbit Charge 5    Wearables  ...             150   Fitbit    4.6
+9         110   Kindle Paperwhite     eReaders  ...              80   Amazon    4.7
+
+[10 rows x 7 columns]
+2026-04-16 11:50:53,401-WARNING-test_data_loading_fact_inventory: Found 30 rows in file but not in DB.
+2026-04-16 11:50:53,403-WARNING-test_data_loading_fact_inventory: Found 30 rows in DB but not in file.
+2026-04-16 11:50:53,404-ERROR-Error in test_data_loading_fact_inventory: Data mismatch in test_data_loading_fact_inventory. See 'differences' folder.
+2026-04-16 11:50:53,404-ERROR-error while sales data loading checks..
+2026-04-16 11:50:53,406-INFO-mysql database connection has been closed..
+2026-04-16 11:50:53,412-INFO-mysql  database connection is being established..
+2026-04-16 11:50:53,413-INFO-The data in the file is :     product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          102         1                30   2024-09-02
+2          103         2                40   2024-09-03
+3          106         3                25   2024-09-06
+4          107         1                35   2024-09-07
+5          108         2                45   2024-09-08
+6          109         3                55   2024-09-09
+7          110         3                65   2024-09-10
+8          101         4                50   2024-09-11
+9          102         4                40   2024-09-12
+10         103         5                30   2024-09-13
+11         104         5                20   2024-09-14
+12         105         6                50   2024-09-15
+13         106         6                60   2024-09-16
+14         107         7                30   2024-09-17
+15         108         7                40   2024-09-18
+16         109         8                45   2024-09-19
+17         110         8                55   2024-09-20
+18         101         9                65   2024-09-21
+19         102         9                75   2024-09-22
+20         103        10                80   2024-09-23
+21         104        10                90   2024-09-24
+22         106         2               110   2024-09-26
+23         107         3               120   2024-09-27
+24         108         4               130   2024-09-28
+25         109         5               140   2024-09-29
+26         110         6               150   2024-09-30
+27         101         7               160   2024-10-01
+28         102         8               170   2024-10-02
+29         103         9               180   2024-10-03
+2026-04-16 11:50:53,414-ERROR-error while duplicate check..
+2026-04-16 11:50:53,415-INFO-The data in the file is :    supplier_id         supplier_name  ... rating last_order_date
+0            1      ABC Distributors  ...    4.8      2024-11-20
+1            2     Global Goods Inc.  ...    4.3      2024-11-19
+2            3   GreenTech Solutions  ...    4.6      2024-11-18
+3            4              EuroWare  ...    4.2      2024-11-22
+4            5      Pacific Products  ...    4.7      2024-11-17
+5            6     Fresh Produce Co.  ...    4.4      2024-11-21
+6            7  TechCore Electronics  ...    4.9      2024-11-23
+7            8       HanYang Trading  ...    4.1      2024-11-16
+8            9         Indo Supplies  ...    4.3      2024-11-25
+9           10         LatAm Imports  ...    4.5      2024-11-20
+
+[10 rows x 8 columns]
+2026-04-16 11:50:53,420-INFO-mysql  database connection is being established..
+2026-04-16 11:50:53,433-INFO-mysql database connection has established..
+2026-04-16 11:50:53,437-INFO-mysql database connection has established..
+2026-04-16 11:50:53,438-INFO-Checking for duplicates in product_id for table monthly_sales_summary
+2026-04-16 11:50:53,441-WARNING-Duplicates found in product_id. Examples: [(101, 2), (102, 2), (103, 2), (104, 2), (105, 2)]
+2026-04-16 11:50:53,442-INFO-mysql database connection has been closed..
+2026-04-16 11:50:53,446-INFO-Expected data in the file is:    store_id  total_inventory
+0         1            115.0
+1         2            195.0
+2         3            265.0
+3         4            220.0
+4         5            190.0
+5         6            260.0
+6         7            230.0
+7         8            270.0
+8         9            320.0
+9        10            170.0
+2026-04-16 11:50:53,447-INFO-mysql  database connection is being established..
+2026-04-16 11:50:53,454-INFO-mysql database connection has established..
+2026-04-16 11:50:53,455-INFO-Checking for duplicates in store_id for table inventory_levels_by_store
+2026-04-16 11:50:53,457-INFO-Actual data in the file is:    store_id  total_inventory
+0         1              115
+1         2              195
+2         3              265
+3         4              220
+4         5              190
+5         6              260
+6         7              230
+7         8              270
+8         9              320
+9        10              170
+2026-04-16 11:50:53,458-INFO-mysql database connection has been closed..
+2026-04-16 11:50:53,463-INFO-mysql  database connection is being established..
+2026-04-16 11:50:53,471-ERROR-Error in test_data_loading_fact_inventory_level_by_stores: Data mismatch in test_data_loading_fact_inventory_level_by_stores. See 'differences' folder.
+2026-04-16 11:50:53,471-ERROR-error while sales data loading checks..
+2026-04-16 11:50:53,472-INFO-mysql database connection has established..
+2026-04-16 11:50:53,473-INFO-mysql database connection has been closed..
+2026-04-16 11:50:53,474-INFO-Starting Duplicate Validation for fact_sales
+2026-04-16 11:50:53,478-INFO-mysql  database connection is being established..
+2026-04-16 11:50:53,481-INFO-Duplicate check passed: Table is clean.
+2026-04-16 11:50:53,482-INFO-mysql database connection has been closed..
+2026-04-16 11:50:53,486-INFO-mysql database connection has established..
+2026-04-16 11:50:53,487-INFO-Starting Duplicate Validation for fact_inventory
+2026-04-16 11:50:53,496-INFO-Duplicate check passed: Table is clean.
+2026-04-16 11:50:53,498-INFO-mysql database connection has been closed..
+2026-04-16 11:50:53,503-INFO-mysql  database connection is being established..
+2026-04-16 11:50:53,513-INFO-mysql database connection has established..
+2026-04-16 11:50:53,514-INFO-Starting Duplicate Validation for monthly_sales_summary
+2026-04-16 11:50:53,552-INFO-The data in the file is :     sales_id  product_id  store_id  quantity  price   sale_date region
+0        101         101         1        10   15.0  2025-09-01   High
+1          1         101         1        10   15.0  2025-09-01   High
+2          2         102         1         5   25.0  2025-09-01    Low
+3          3         103         2         7   20.0  2025-09-02   High
+4          4         104         2         3   30.0  2025-09-03    Low
+..       ...         ...       ...       ...    ...         ...    ...
+56        56         106         3         8   18.0  2025-09-06    Low
+57        57         107         1         4   22.0  2025-09-07   High
+58        58         108         2         6   24.0  2025-09-08    Low
+59        59         109         3        11   19.0  2025-09-09   High
+60        60         110         4         9   17.0  2025-09-10    Low
+
+[61 rows x 7 columns]
+2026-04-16 11:50:53,553-INFO-Oracle database connection has established..
+2026-04-16 11:50:53,575-INFO-Expected data in the file is:    store_id    store_name
+0         1       Walmart
+1         2        Target
+2         3      Best Buy
+3         4        Costco
+4         5    Home Depot
+5         6        Lowe's
+6         7   Apple Store
+7         8          IKEA
+8         9     Walgreens
+9        10  CVS Pharmacy
+2026-04-16 11:50:53,575-INFO-The data in the file is :    product_id        product_name     category  ...  stock_quantity    brand rating
+0         101           iPhone 15  Smartphones  ...              50    Apple    4.8
+1         102  Samsung Galaxy S23  Smartphones  ...              75  Samsung    4.7
+2         103         Dell XPS 13      Laptops  ...              30     Dell    4.6
+3         104      MacBook Pro 14      Laptops  ...              25    Apple    4.9
+4         105     Sony WH-1000XM5   Headphones  ...             100     Sony    4.7
+5         106       Nike Air Zoom     Sneakers  ...             200     Nike    4.5
+6         107      Samsung 55" TV  Electronics  ...              40  Samsung    4.4
+7         108    Philips Hue Bulb   Smart Home  ...             500  Philips    4.8
+8         109     Fitbit Charge 5    Wearables  ...             150   Fitbit    4.6
+9         110   Kindle Paperwhite     eReaders  ...              80   Amazon    4.7
+
+[10 rows x 7 columns]
+2026-04-16 11:50:53,592-INFO-The data in the file is :     product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          102         1                30   2024-09-02
+2          103         2                40   2024-09-03
+3          106         3                25   2024-09-06
+4          107         1                35   2024-09-07
+5          108         2                45   2024-09-08
+6          109         3                55   2024-09-09
+7          110         3                65   2024-09-10
+8          101         4                50   2024-09-11
+9          102         4                40   2024-09-12
+10         103         5                30   2024-09-13
+11         104         5                20   2024-09-14
+12         105         6                50   2024-09-15
+13         106         6                60   2024-09-16
+14         107         7                30   2024-09-17
+15         108         7                40   2024-09-18
+16         109         8                45   2024-09-19
+17         110         8                55   2024-09-20
+18         101         9                65   2024-09-21
+19         102         9                75   2024-09-22
+20         103        10                80   2024-09-23
+21         104        10                90   2024-09-24
+22         106         2               110   2024-09-26
+23         107         3               120   2024-09-27
+24         108         4               130   2024-09-28
+25         109         5               140   2024-09-29
+26         110         6               150   2024-09-30
+27         101         7               160   2024-10-01
+28         102         8               170   2024-10-02
+29         103         9               180   2024-10-03
+2026-04-16 11:50:53,598-INFO-Actual data in the file is:    store_id    store_name
+0         1       Walmart
+1         2        Target
+2         3      Best Buy
+3         4        Costco
+4         5    Home Depot
+5         6        Lowe's
+6         7   Apple Store
+7         8          IKEA
+8         9     Walgreens
+9        10  CVS Pharmacy
+2026-04-16 11:50:53,611-INFO-Test test_data_extraction_from_stores_data_to_stage passed successfully.
+2026-04-16 11:50:53,613-INFO-Oracle database connection has been closed..
+2026-04-16 11:50:53,613-INFO-mysql database connection has been closed..
+2026-04-16 11:50:53,619-INFO-mysql  database connection is being established..
+2026-04-16 11:50:53,620-INFO-The data in the file is :    supplier_id         supplier_name  ... rating last_order_date
+0            1      ABC Distributors  ...    4.8      2024-11-20
+1            2     Global Goods Inc.  ...    4.3      2024-11-19
+2            3   GreenTech Solutions  ...    4.6      2024-11-18
+3            4              EuroWare  ...    4.2      2024-11-22
+4            5      Pacific Products  ...    4.7      2024-11-17
+5            6     Fresh Produce Co.  ...    4.4      2024-11-21
+6            7  TechCore Electronics  ...    4.9      2024-11-23
+7            8       HanYang Trading  ...    4.1      2024-11-16
+8            9         Indo Supplies  ...    4.3      2024-11-25
+9           10         LatAm Imports  ...    4.5      2024-11-20
+
+[10 rows x 8 columns]
+2026-04-16 11:50:53,626-INFO-mysql database connection has established..
+2026-04-16 11:50:53,638-INFO-Expected data in the file is:     product_id  year  month  total_sales
+0          101  2025      9        427.0
+1          101  2025     10        263.5
+2          102  2025      9        419.0
+3          102  2025     10        254.0
+4          103  2025      9        346.0
+5          103  2025     10        339.0
+6          104  2025      9        398.0
+7          104  2025     10        346.0
+8          105  2025      9        294.0
+9          105  2025     10        355.0
+10         106  2025      9        220.0
+11         106  2025     10        255.0
+12         107  2025      9        268.0
+13         107  2025     10        360.0
+14         108  2025      9        330.0
+15         108  2025     10        261.0
+16         109  2025      9        436.0
+17         109  2025     10        423.5
+18         110  2025      9        646.0
+19         110  2025     10        408.0
+2026-04-16 11:50:53,645-INFO-The data in the file is :     sales_id  product_id  store_id  quantity  price   sale_date region
+0        101         101         1        10   15.0  2025-09-01   High
+1          1         101         1        10   15.0  2025-09-01   High
+2          2         102         1         5   25.0  2025-09-01    Low
+3          3         103         2         7   20.0  2025-09-02   High
+4          4         104         2         3   30.0  2025-09-03    Low
+..       ...         ...       ...       ...    ...         ...    ...
+56        56         106         3         8   18.0  2025-09-06    Low
+57        57         107         1         4   22.0  2025-09-07   High
+58        58         108         2         6   24.0  2025-09-08    Low
+59        59         109         3        11   19.0  2025-09-09   High
+60        60         110         4         9   17.0  2025-09-10    Low
+
+[61 rows x 7 columns]
+2026-04-16 11:50:53,650-INFO-Actual data in the file is:     product_id  year  month  total_sales
+0          101  2025      9        427.0
+1          101  2025     10        263.5
+2          102  2025      9        419.0
+3          102  2025     10        254.0
+4          103  2025      9        346.0
+5          103  2025     10        339.0
+6          104  2025      9        398.0
+7          104  2025     10        346.0
+8          105  2025      9        294.0
+9          105  2025     10        355.0
+10         106  2025      9        220.0
+11         106  2025     10        255.0
+12         107  2025      9        268.0
+13         107  2025     10        360.0
+14         108  2025      9        330.0
+15         108  2025     10        261.0
+16         109  2025      9        436.0
+17         109  2025     10        423.5
+18         110  2025      9        646.0
+19         110  2025     10        408.0
+2026-04-16 11:50:53,652-INFO-mysql  database connection is being established..
+2026-04-16 11:50:53,659-INFO-mysql database connection has established..
+2026-04-16 11:50:53,660-INFO-Starting NULL value validation for fact_inventory.product_id
+2026-04-16 11:50:53,662-INFO-NULL check passed for fact_inventory.product_id
+2026-04-16 11:50:53,664-INFO-mysql database connection has been closed..
+2026-04-16 11:50:53,665-INFO-Test test_data_loading_monthly_sales_summary passed successfully.
+2026-04-16 11:50:53,666-INFO-mysql database connection has been closed..
+2026-04-16 11:50:53,670-INFO-mysql  database connection is being established..
+2026-04-16 11:50:53,672-INFO-mysql  database connection is being established..
+2026-04-16 11:50:53,677-INFO-mysql database connection has established..
+2026-04-16 11:50:53,679-INFO-Starting NULL value validation for inventory_levels_by_store.store_id
+2026-04-16 11:50:53,679-INFO-mysql database connection has established..
+2026-04-16 11:50:53,680-INFO-NULL check passed for inventory_levels_by_store.store_id
+2026-04-16 11:50:53,680-INFO-Starting NULL value validation for fact_sales.product_id
+2026-04-16 11:50:53,681-INFO-mysql database connection has been closed..
+2026-04-16 11:50:53,682-INFO-NULL check passed for fact_sales.product_id
+2026-04-16 11:50:53,684-INFO-mysql database connection has been closed..
+2026-04-16 11:50:53,688-INFO-mysql  database connection is being established..
+2026-04-16 11:50:53,689-INFO-mysql  database connection is being established..
+2026-04-16 11:50:53,696-INFO-mysql database connection has established..
+2026-04-16 11:50:53,696-INFO-mysql database connection has established..
+2026-04-16 11:50:53,697-INFO-Starting NULL value validation for monthly_sales_summary.product_id
+2026-04-16 11:50:53,698-INFO-NULL check passed for monthly_sales_summary.product_id
+2026-04-16 11:50:53,700-INFO-mysql database connection has been closed..
+2026-04-16 11:50:53,705-INFO-mysql  database connection is being established..
+2026-04-16 11:50:53,711-INFO-mysql database connection has established..
+2026-04-16 11:50:53,713-INFO-mysql database connection has been closed..
+2026-04-16 11:50:53,718-INFO-mysql  database connection is being established..
+2026-04-16 11:50:53,725-INFO-mysql database connection has established..
+2026-04-16 11:50:53,740-INFO-Expected data in the file is:     sales_id  product_id  store_id  quantity  price   sale_date region
+0         10         110         4         9   17.0  2025-09-10    Low
+1         11         101         4        15   14.0  2025-09-11   High
+2         12         102         5         9   27.0  2025-09-12    Low
+3         13         103         6        10   22.0  2025-09-13   High
+4         14         104         7         8   31.0  2025-09-14    Low
+5         15         105         4        12   11.0  2025-09-15   High
+6         16         106         5         5   23.0  2025-09-16    Low
+7         17         107         6         3   26.0  2025-09-17   High
+8         18         108         7         6   28.0  2025-09-18    Low
+9         19         109         8        11   20.0  2025-09-19   High
+10        20         110         9         9   19.5  2025-09-20    Low
+11        21         101         1        14   15.5  2025-09-21   High
+12        22         102         2         8   22.0  2025-09-22    Low
+13        23         103         3         7   18.0  2025-09-23   High
+14        24         104         4         6   25.0  2025-09-24    Low
+15        25         105         2        12   13.5  2025-09-25   High
+16        26         106         3         5   21.0  2025-09-26    Low
+17        27         107         1        10   19.0  2025-09-27   High
+18        28         108         5         6   27.0  2025-09-28    Low
+19        29         109         6         9   24.0  2025-09-29   High
+20        30         110         7         7   23.5  2025-09-30    Low
+21        31         101         4        13   14.5  2025-10-01   High
+22        32         102         5         6   29.0  2025-10-02    Low
+23        33         103         6         8   21.0  2025-10-03   High
+24        34         104         7         5   30.0  2025-10-04    Low
+25        35         105         4         7   15.0  2025-10-05   High
+26        36         106         5         3   25.0  2025-10-06    Low
+27        37         107         6        12   18.0  2025-10-07   High
+28        38         108         7         9   20.0  2025-10-08    Low
+29        39         109         8        10   22.0  2025-10-09   High
+30        40         110         9         6   26.0  2025-10-10    Low
+31        41         101         3         5   15.0  2025-10-11   High
+32        42         102         4         4   20.0  2025-10-12    Low
+33        43         103         5         9   19.0  2025-10-13   High
+34        44         104         6         7   28.0  2025-10-14    Low
+35        45         105         7        10   25.0  2025-10-15   High
+36        46         106         8         8   22.5  2025-10-16    Low
+37        47         107         9         6   24.0  2025-10-17   High
+38        48         108         1         3   27.0  2025-10-18    Low
+39        49         109         2        11   18.5  2025-10-19   High
+40        50         110         3        12   21.0  2025-10-20    Low
+41        60         110         4         9   17.0  2025-09-10    Low
+2026-04-16 11:50:53,744-INFO-Expected data in the file is:     sales_id  product_id  store_id  quantity  price   sale_date region
+0         11         101         4        15   14.0  2025-09-11   High
+1         13         103         6        10   22.0  2025-09-13   High
+2         15         105         4        12   11.0  2025-09-15   High
+3         17         107         6         3   26.0  2025-09-17   High
+4         19         109         8        11   20.0  2025-09-19   High
+5         21         101         1        14   15.5  2025-09-21   High
+6         23         103         3         7   18.0  2025-09-23   High
+7         25         105         2        12   13.5  2025-09-25   High
+8         27         107         1        10   19.0  2025-09-27   High
+9         29         109         6         9   24.0  2025-09-29   High
+10        31         101         4        13   14.5  2025-10-01   High
+11        33         103         6         8   21.0  2025-10-03   High
+12        35         105         4         7   15.0  2025-10-05   High
+13        37         107         6        12   18.0  2025-10-07   High
+14        39         109         8        10   22.0  2025-10-09   High
+15        41         101         3         5   15.0  2025-10-11   High
+16        43         103         5         9   19.0  2025-10-13   High
+17        45         105         7        10   25.0  2025-10-15   High
+18        47         107         9         6   24.0  2025-10-17   High
+19        49         109         2        11   18.5  2025-10-19   High
+2026-04-16 11:50:53,764-INFO-Actual data in the file is:     sales_id  product_id  store_id  quantity  price   sale_date region
+0         10         110         4         9   17.0  2025-09-10    Low
+1         11         101         4        15   14.0  2025-09-11   High
+2         12         102         5         9   27.0  2025-09-12    Low
+3         13         103         6        10   22.0  2025-09-13   High
+4         14         104         7         8   31.0  2025-09-14    Low
+5         15         105         4        12   11.0  2025-09-15   High
+6         16         106         5         5   23.0  2025-09-16    Low
+7         17         107         6         3   26.0  2025-09-17   High
+8         18         108         7         6   28.0  2025-09-18    Low
+9         19         109         8        11   20.0  2025-09-19   High
+10        20         110         9         9   19.5  2025-09-20    Low
+11        21         101         1        14   15.5  2025-09-21   High
+12        22         102         2         8   22.0  2025-09-22    Low
+13        23         103         3         7   18.0  2025-09-23   High
+14        24         104         4         6   25.0  2025-09-24    Low
+15        25         105         2        12   13.5  2025-09-25   High
+16        26         106         3         5   21.0  2025-09-26    Low
+17        27         107         1        10   19.0  2025-09-27   High
+18        28         108         5         6   27.0  2025-09-28    Low
+19        29         109         6         9   24.0  2025-09-29   High
+20        30         110         7         7   23.5  2025-09-30    Low
+21        31         101         4        13   14.5  2025-10-01   High
+22        32         102         5         6   29.0  2025-10-02    Low
+23        33         103         6         8   21.0  2025-10-03   High
+24        34         104         7         5   30.0  2025-10-04    Low
+25        35         105         4         7   15.0  2025-10-05   High
+26        36         106         5         3   25.0  2025-10-06    Low
+27        37         107         6        12   18.0  2025-10-07   High
+28        38         108         7         9   20.0  2025-10-08    Low
+29        39         109         8        10   22.0  2025-10-09   High
+30        40         110         9         6   26.0  2025-10-10    Low
+31        41         101         3         5   15.0  2025-10-11   High
+32        42         102         4         4   20.0  2025-10-12    Low
+33        43         103         5         9   19.0  2025-10-13   High
+34        44         104         6         7   28.0  2025-10-14    Low
+35        45         105         7        10   25.0  2025-10-15   High
+36        46         106         8         8   22.5  2025-10-16    Low
+37        47         107         9         6   24.0  2025-10-17   High
+38        48         108         1         3   27.0  2025-10-18    Low
+39        49         109         2        11   18.5  2025-10-19   High
+40        50         110         3        12   21.0  2025-10-20    Low
+41        60         110         4         9   17.0  2025-09-10    Low
+2026-04-16 11:50:53,765-INFO-Actual data in the file is:     sales_id  product_id  store_id  quantity  price   sale_date region
+0         11         101         4        15   14.0  2025-09-11   High
+1         13         103         6        10   22.0  2025-09-13   High
+2         15         105         4        12   11.0  2025-09-15   High
+3         17         107         6         3   26.0  2025-09-17   High
+4         19         109         8        11   20.0  2025-09-19   High
+5         21         101         1        14   15.5  2025-09-21   High
+6         23         103         3         7   18.0  2025-09-23   High
+7         25         105         2        12   13.5  2025-09-25   High
+8         27         107         1        10   19.0  2025-09-27   High
+9         29         109         6         9   24.0  2025-09-29   High
+10        31         101         4        13   14.5  2025-10-01   High
+11        33         103         6         8   21.0  2025-10-03   High
+12        35         105         4         7   15.0  2025-10-05   High
+13        37         107         6        12   18.0  2025-10-07   High
+14        39         109         8        10   22.0  2025-10-09   High
+15        41         101         3         5   15.0  2025-10-11   High
+16        43         103         5         9   19.0  2025-10-13   High
+17        45         105         7        10   25.0  2025-10-15   High
+18        47         107         9         6   24.0  2025-10-17   High
+19        49         109         2        11   18.5  2025-10-19   High
+2026-04-16 11:50:53,777-INFO-Test test_data_transformation_filter_sales passed successfully.
+2026-04-16 11:50:53,779-INFO-mysql database connection has been closed..
+2026-04-16 11:50:53,781-INFO-Test test_data_transformation_Router_High_sales passed successfully.
+2026-04-16 11:50:53,783-INFO-mysql database connection has been closed..
+2026-04-16 11:50:53,785-INFO-mysql  database connection is being established..
+2026-04-16 11:50:53,788-INFO-mysql  database connection is being established..
+2026-04-16 11:50:53,791-INFO-mysql database connection has established..
+2026-04-16 11:50:53,794-INFO-mysql database connection has established..
+2026-04-16 11:50:53,806-INFO-Expected data in the file is:     product_id  year  month  total_sales
+0          110  2025      9        646.0
+1          101  2025      9        427.0
+2          102  2025      9        419.0
+3          103  2025      9        346.0
+4          104  2025      9        398.0
+5          105  2025      9        294.0
+6          106  2025      9        220.0
+7          107  2025      9        268.0
+8          108  2025      9        330.0
+9          109  2025      9        436.0
+10         101  2025     10        263.5
+11         102  2025     10        254.0
+12         103  2025     10        339.0
+13         104  2025     10        346.0
+14         105  2025     10        355.0
+15         106  2025     10        255.0
+16         107  2025     10        360.0
+17         108  2025     10        261.0
+18         109  2025     10        423.5
+19         110  2025     10        408.0
+2026-04-16 11:50:53,812-INFO-Expected data in the file is:     sales_id  product_id  store_id  quantity  price   sale_date region
+0         10         110         4         9   17.0  2025-09-10    Low
+1         12         102         5         9   27.0  2025-09-12    Low
+2         14         104         7         8   31.0  2025-09-14    Low
+3         16         106         5         5   23.0  2025-09-16    Low
+4         18         108         7         6   28.0  2025-09-18    Low
+5         20         110         9         9   19.5  2025-09-20    Low
+6         22         102         2         8   22.0  2025-09-22    Low
+7         24         104         4         6   25.0  2025-09-24    Low
+8         26         106         3         5   21.0  2025-09-26    Low
+9         28         108         5         6   27.0  2025-09-28    Low
+10        30         110         7         7   23.5  2025-09-30    Low
+11        32         102         5         6   29.0  2025-10-02    Low
+12        34         104         7         5   30.0  2025-10-04    Low
+13        36         106         5         3   25.0  2025-10-06    Low
+14        38         108         7         9   20.0  2025-10-08    Low
+15        40         110         9         6   26.0  2025-10-10    Low
+16        42         102         4         4   20.0  2025-10-12    Low
+17        44         104         6         7   28.0  2025-10-14    Low
+18        46         106         8         8   22.5  2025-10-16    Low
+19        48         108         1         3   27.0  2025-10-18    Low
+20        50         110         3        12   21.0  2025-10-20    Low
+21        60         110         4         9   17.0  2025-09-10    Low
+2026-04-16 11:50:53,831-INFO-Actual data in the file is:     sales_id  product_id  store_id  quantity  price   sale_date region
+0         10         110         4         9   17.0  2025-09-10    Low
+1         12         102         5         9   27.0  2025-09-12    Low
+2         14         104         7         8   31.0  2025-09-14    Low
+3         16         106         5         5   23.0  2025-09-16    Low
+4         18         108         7         6   28.0  2025-09-18    Low
+5         20         110         9         9   19.5  2025-09-20    Low
+6         22         102         2         8   22.0  2025-09-22    Low
+7         24         104         4         6   25.0  2025-09-24    Low
+8         26         106         3         5   21.0  2025-09-26    Low
+9         28         108         5         6   27.0  2025-09-28    Low
+10        30         110         7         7   23.5  2025-09-30    Low
+11        32         102         5         6   29.0  2025-10-02    Low
+12        34         104         7         5   30.0  2025-10-04    Low
+13        36         106         5         3   25.0  2025-10-06    Low
+14        38         108         7         9   20.0  2025-10-08    Low
+15        40         110         9         6   26.0  2025-10-10    Low
+16        42         102         4         4   20.0  2025-10-12    Low
+17        44         104         6         7   28.0  2025-10-14    Low
+18        46         106         8         8   22.5  2025-10-16    Low
+19        48         108         1         3   27.0  2025-10-18    Low
+20        50         110         3        12   21.0  2025-10-20    Low
+21        60         110         4         9   17.0  2025-09-10    Low
+2026-04-16 11:50:53,845-INFO-Test test_data_transformation_Router_Low_sales passed successfully.
+2026-04-16 11:50:53,846-INFO-mysql database connection has been closed..
+2026-04-16 11:50:53,850-INFO-Actual data in the file is:     product_id  year  month  total_sales
+0          110  2025      9        646.0
+1          101  2025      9        427.0
+2          102  2025      9        419.0
+3          103  2025      9        346.0
+4          104  2025      9        398.0
+5          105  2025      9        294.0
+6          106  2025      9        220.0
+7          107  2025      9        268.0
+8          108  2025      9        330.0
+9          109  2025      9        436.0
+10         101  2025     10        263.5
+11         102  2025     10        254.0
+12         103  2025     10        339.0
+13         104  2025     10        346.0
+14         105  2025     10        355.0
+15         106  2025     10        255.0
+16         107  2025     10        360.0
+17         108  2025     10        261.0
+18         109  2025     10        423.5
+19         110  2025     10        408.0
+2026-04-16 11:50:53,852-INFO-mysql  database connection is being established..
+2026-04-16 11:50:53,862-INFO-Test test_data_transformation_Aggregator_sales passed successfully.
+2026-04-16 11:50:53,863-INFO-mysql database connection has been closed..
+2026-04-16 11:50:53,868-INFO-mysql  database connection is being established..
+2026-04-16 11:50:53,878-INFO-mysql database connection has established..
+2026-04-16 11:50:53,894-INFO-mysql database connection has established..
+2026-04-16 11:50:53,903-INFO-Expected data in the file is:    store_id  total_inventory
+0         1            115.0
+1         2            195.0
+2         3            265.0
+3         4            220.0
+4         5            190.0
+5         6            260.0
+6         7            230.0
+7         8            270.0
+8         9            320.0
+9        10            170.0
+2026-04-16 11:50:53,913-INFO-Expected data in the file is:     sales_id  quantity  price  ...        product_name store_id   store_name
+0         48         3   27.0  ...    Philips Hue Bulb        1      Walmart
+1         27        10   19.0  ...      Samsung 55" TV        1      Walmart
+2         21        14   15.5  ...           iPhone 15        1      Walmart
+3         49        11   18.5  ...     Fitbit Charge 5        2       Target
+4         25        12   13.5  ...     Sony WH-1000XM5        2       Target
+5         22         8   22.0  ...  Samsung Galaxy S23        2       Target
+6         50        12   21.0  ...   Kindle Paperwhite        3     Best Buy
+7         41         5   15.0  ...           iPhone 15        3     Best Buy
+8         26         5   21.0  ...       Nike Air Zoom        3     Best Buy
+9         23         7   18.0  ...         Dell XPS 13        3     Best Buy
+10        60         9   17.0  ...   Kindle Paperwhite        4       Costco
+11        42         4   20.0  ...  Samsung Galaxy S23        4       Costco
+12        35         7   15.0  ...     Sony WH-1000XM5        4       Costco
+13        31        13   14.5  ...           iPhone 15        4       Costco
+14        24         6   25.0  ...      MacBook Pro 14        4       Costco
+15        15        12   11.0  ...     Sony WH-1000XM5        4       Costco
+16        11        15   14.0  ...           iPhone 15        4       Costco
+17        10         9   17.0  ...   Kindle Paperwhite        4       Costco
+18        43         9   19.0  ...         Dell XPS 13        5   Home Depot
+19        36         3   25.0  ...       Nike Air Zoom        5   Home Depot
+20        32         6   29.0  ...  Samsung Galaxy S23        5   Home Depot
+21        28         6   27.0  ...    Philips Hue Bulb        5   Home Depot
+22        16         5   23.0  ...       Nike Air Zoom        5   Home Depot
+23        12         9   27.0  ...  Samsung Galaxy S23        5   Home Depot
+24        44         7   28.0  ...      MacBook Pro 14        6       Lowe's
+25        37        12   18.0  ...      Samsung 55" TV        6       Lowe's
+26        33         8   21.0  ...         Dell XPS 13        6       Lowe's
+27        29         9   24.0  ...     Fitbit Charge 5        6       Lowe's
+28        17         3   26.0  ...      Samsung 55" TV        6       Lowe's
+29        13        10   22.0  ...         Dell XPS 13        6       Lowe's
+30        45        10   25.0  ...     Sony WH-1000XM5        7  Apple Store
+31        38         9   20.0  ...    Philips Hue Bulb        7  Apple Store
+32        34         5   30.0  ...      MacBook Pro 14        7  Apple Store
+33        30         7   23.5  ...   Kindle Paperwhite        7  Apple Store
+34        18         6   28.0  ...    Philips Hue Bulb        7  Apple Store
+35        14         8   31.0  ...      MacBook Pro 14        7  Apple Store
+36        46         8   22.5  ...       Nike Air Zoom        8         IKEA
+37        39        10   22.0  ...     Fitbit Charge 5        8         IKEA
+38        19        11   20.0  ...     Fitbit Charge 5        8         IKEA
+39        47         6   24.0  ...      Samsung 55" TV        9    Walgreens
+40        40         6   26.0  ...   Kindle Paperwhite        9    Walgreens
+41        20         9   19.5  ...   Kindle Paperwhite        9    Walgreens
+
+[42 rows x 9 columns]
+2026-04-16 11:50:53,916-INFO-Actual data in the file is:    store_id  total_inventory
+0         1            115.0
+1         2            195.0
+2         3            265.0
+3         4            220.0
+4         5            190.0
+5         6            260.0
+6         7            230.0
+7         8            270.0
+8         9            320.0
+9        10            170.0
+2026-04-16 11:50:53,922-INFO-mysql  database connection is being established..
+2026-04-16 11:50:53,929-INFO-Test test_data_transformation_Aggretor_inventory_ passed successfully.
+2026-04-16 11:50:53,929-INFO-mysql database connection has established..
+2026-04-16 11:50:53,930-INFO-Checking for duplicates in product_id for table fact_sales
+2026-04-16 11:50:53,930-INFO-mysql database connection has been closed..
+2026-04-16 11:50:53,932-WARNING-Duplicates found in product_id. Examples: [(110, 6), (101, 4), (102, 4), (103, 4), (104, 4)]
+2026-04-16 11:50:53,933-INFO-mysql database connection has been closed..
+2026-04-16 11:50:53,935-INFO-mysql  database connection is being established..
+2026-04-16 11:50:53,939-INFO-mysql  database connection is being established..
+2026-04-16 11:50:53,946-INFO-mysql database connection has established..
+2026-04-16 11:50:53,947-INFO-Checking for duplicates in product_id for table fact_inventory
+2026-04-16 11:50:53,949-WARNING-Duplicates found in product_id. Examples: [(101, 4), (102, 4), (103, 4), (104, 2), (106, 3)]
+2026-04-16 11:50:53,950-INFO-mysql database connection has been closed..
+2026-04-16 11:50:53,953-INFO-mysql database connection has established..
+2026-04-16 11:50:53,954-INFO-Starting execution of: test_data_types_of_columns_in_the_fact_inventory
+2026-04-16 11:50:53,957-INFO-mysql  database connection is being established..
+2026-04-16 11:50:53,958-INFO-mysql database connection has been closed..
+2026-04-16 11:50:53,962-INFO-mysql database connection has established..
+2026-04-16 11:50:53,963-INFO-Starting execution of: test_data_types_of_columns_in_the_monthly_sales_summary
+2026-04-16 11:50:53,963-INFO-mysql  database connection is being established..
+2026-04-16 11:50:53,970-INFO-mysql database connection has established..
+2026-04-16 11:50:53,972-INFO-Starting execution of: test_data_types_of_columns_in_the_fact_sales
+2026-04-16 11:50:53,976-INFO-mysql database connection has been closed..
+ntity  price  ...        product_name store_id   store_name
+0         48         3   27.0  ...    Philips Hue Bulb        1      Walmart
+1         27        10   19.0  ...      Samsung 55" TV        1      Walmart
+2         21        14   15.5  ...           iPhone 15        1      Walmart
+3         49        11   18.5  ...     Fitbit Charge 5        2       Target
+4         25        12   13.5  ...     Sony WH-1000XM5        2       Target
+5         22         8   22.0  ...  Samsung Galaxy S23        2       Target
+6         50        12   21.0  ...   Kindle Paperwhite        3     Best Buy
+7         41         5   15.0  ...           iPhone 15        3     Best Buy
+8         26         5   21.0  ...       Nike Air Zoom        3     Best Buy
+9         23         7   18.0  ...         Dell XPS 13        3     Best Buy
+10        60         9   17.0  ...   Kindle Paperwhite        4       Costco
+11        42         4   20.0  ...  Samsung Galaxy S23        4       Costco
+12        35         7   15.0  ...     Sony WH-1000XM5        4       Costco
+13        31        13   14.5  ...           iPhone 15        4       Costco
+14        24         6   25.0  ...      MacBook Pro 14        4       Costco
+15        15        12   11.0  ...     Sony WH-1000XM5        4       Costco
+16        11        15   14.0  ...           iPhone 15        4       Costco
+17        10         9   17.0  ...   Kindle Paperwhite        4       Costco
+18        43         9   19.0  ...         Dell XPS 13        5   Home Depot
+19        36         3   25.0  ...       Nike Air Zoom        5   Home Depot
+20        32         6   29.0  ...  Samsung Galaxy S23        5   Home Depot
+21        28         6   27.0  ...    Philips Hue Bulb        5   Home Depot
+22        16         5   23.0  ...       Nike Air Zoom        5   Home Depot
+23        12         9   27.0  ...  Samsung Galaxy S23        5   Home Depot
+24        44         7   28.0  ...      MacBook Pro 14        6       Lowe's
+25        37        12   18.0  ...      Samsung 55" TV        6       Lowe's
+26        33         8   21.0  ...         Dell XPS 13        6       Lowe's
+27        29         9   24.0  ...     Fitbit Charge 5        6       Lowe's
+28        17         3   26.0  ...      Samsung 55" TV        6       Lowe's
+29        13        10   22.0  ...         Dell XPS 13        6       Lowe's
+30        45        10   25.0  ...     Sony WH-1000XM5        7  Apple Store
+31        38         9   20.0  ...    Philips Hue Bulb        7  Apple Store
+32        34         5   30.0  ...      MacBook Pro 14        7  Apple Store
+33        30         7   23.5  ...   Kindle Paperwhite        7  Apple Store
+34        18         6   28.0  ...    Philips Hue Bulb        7  Apple Store
+35        14         8   31.0  ...      MacBook Pro 14        7  Apple Store
+36        46         8   22.5  ...       Nike Air Zoom        8         IKEA
+37        39        10   22.0  ...     Fitbit Charge 5        8         IKEA
+38        19        11   20.0  ...     Fitbit Charge 5        8         IKEA
+39        47         6   24.0  ...      Samsung 55" TV        9    Walgreens
+40        40         6   26.0  ...   Kindle Paperwhite        9    Walgreens
+41        20         9   19.5  ...   Kindle Paperwhite        9    Walgreens
+
+[42 rows x 9 columns]
+2026-04-16 11:50:53,988-INFO-mysql database connection has been closed..
+2026-04-16 11:50:53,993-INFO-Test test_data_transformation_Joiner passed successfully.
+2026-04-16 11:50:53,993-INFO-mysql  database connection is being established..
+2026-04-16 11:50:53,994-INFO-mysql database connection has been closed..
+2026-04-16 11:50:54,000-INFO-mysql  database connection is being established..
+2026-04-16 11:50:54,009-INFO-mysql database connection has established..
+2026-04-16 11:50:54,011-ERROR-error while table existence check checks..
+2026-04-16 11:50:54,012-INFO-mysql database connection has been closed..
+2026-04-16 11:50:54,019-INFO-mysql database connection has established..
+2026-04-16 11:50:54,025-INFO-Starting execution of: test_data_types_of_columns__in_the_inventory_levels_by_store
+2026-04-16 11:50:54,030-INFO-mysql database connection has been closed..
+2026-04-16 11:50:54,151-INFO-mysql database connection has been closed..
+2026-04-16 11:50:54,160-INFO-mysql  database connection is being established..
+2026-04-16 11:50:54,175-INFO-mysql database connection has established..
+2026-04-16 11:50:54,177-INFO-Starting Duplicate Validation for inventory_levels_by_store
+2026-04-16 11:50:54,184-INFO-Duplicate check passed: Table is clean.
+2026-04-16 11:50:54,186-INFO-mysql database connection has been closed..
