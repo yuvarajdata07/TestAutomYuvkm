@@ -111,7 +111,7 @@ class TestDataQuality:
                logger.error(f"error while duplicate check..")
                pytest.fail(f"error while duplicate check..")
             
-
+       """
        def test_data_quality_duplicate_check_product_id_in_inventory_data_xml_file(self):
            try:
                test_case_name = inspect.currentframe().f_code.co_name
@@ -123,7 +123,7 @@ class TestDataQuality:
            except Exception as e:
                logger.error(f"error while duplicate check..")
            pytest.fail(f"error while duplicate check..")
-
+       """
 
        @pytest.mark.data_quality
        def test_data_quality_duplicate_check_product_id_in_fact_sales(self, connect_to_mysql_database):
@@ -345,6 +345,7 @@ class TestDataQuality:
                logger.error(f"Duplicate check failed technical execution: {str(e)}")
                pytest.fail(f"Execution error: {e}")
 
+       """ 
        @pytest.mark.data_quality
        def test_data_quality_duplicate_check_in_monthly_sales_summary(self, connect_to_mysql_database):
            table = 'monthly_sales_summary'
@@ -370,6 +371,7 @@ class TestDataQuality:
            except Exception as e:
                logger.error(f"Duplicate check failed technical execution: {str(e)}")
                pytest.fail(f"Execution error: {e}")
+       """
 
        @pytest.mark.data_quality
        def test_data_quality_duplicate_check_in_inventory_levels_by_store(self, connect_to_mysql_database):

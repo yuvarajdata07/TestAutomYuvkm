@@ -53,6 +53,7 @@ class TestDataExtraction:
             logger.error(f"error while product data extraction checks..")
 
     @pytest.mark.data_extraction
+    @pytest.mark.smoke_test
     def test_data_extraction_from_supplier_data_to_stage(self,connect_to_mysql_database):
         try:
             test_case_name = inspect.currentframe().f_code.co_name
@@ -62,6 +63,7 @@ class TestDataExtraction:
             logger.error(f"error while supplier data extraction checks..")
 
     @pytest.mark.data_extraction
+    @pytest.mark.smoke_test
     def test_data_extraction_from_inventory_data_to_stage(self,connect_to_mysql_database):
         try:
             test_case_name = inspect.currentframe().f_code.co_name
@@ -71,6 +73,7 @@ class TestDataExtraction:
             logger.error(f"error while inventory data extraction checks..")
 
     @pytest.mark.data_extraction
+    @pytest.mark.smoke_test
     def test_data_extraction_from_stores_data_to_stage(self,connect_to_mysql_database,connect_to_oracle_database):
         try:
             test_case_name = inspect.currentframe().f_code.co_name

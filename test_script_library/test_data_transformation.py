@@ -61,6 +61,8 @@ class TestDataTransformation:
 
 
   # Assignment to be completed ....
+    @pytest.mark.data_transformation
+    @pytest.mark.smoke_test
     def test_data_transformation_Aggregator_sales(self, connect_to_mysql_database):
         try:
             test_case_name = inspect.currentframe().f_code.co_name
@@ -71,6 +73,8 @@ class TestDataTransformation:
         except Exception as e:
             logger.error(f"error while Aggregator sales transformation checks..")
 
+    @pytest.mark.data_transformation
+    @pytest.mark.smoke_test
     def test_data_transformation_Joiner(self, connect_to_mysql_database):
         try:
             test_case_name = inspect.currentframe().f_code.co_name
@@ -81,7 +85,8 @@ class TestDataTransformation:
             verify_expected_result_as_database_to_actual_result_as_database_table(test_case_name, expected_query,connect_to_mysql_database,actual_query,connect_to_mysql_database)
         except Exception as e:
             logger.error(f"error while sales data Router transformation checks..")
-
+    @pytest.mark.data_transformation
+    @pytest.mark.smoke_test
     def test_data_transformation_Aggretor_inventory_(self, connect_to_mysql_database):
         try:
             test_case_name = inspect.currentframe().f_code.co_name
